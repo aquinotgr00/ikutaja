@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://web-course-final.loc';
+$url_path = "http://"; 
+$url_path .= $_SERVER['SERVER_NAME']."";
+$url_path .= str_replace("index.php", "", $_SERVER['SCRIPT_NAME']);
+
+$config['base_url'] = $url_path;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +39,7 @@ $config['base_url'] = 'http://web-course-final.loc';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -136,7 +140,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = FALSE;
+$config['composer_autoload'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +328,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'b8mAMEmtj6aZfxSETfYo6vSiroWdo5kT';
 
 /*
 |--------------------------------------------------------------------------
@@ -449,8 +453,8 @@ $config['global_xss_filtering'] = FALSE;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_test_name';
-$config['csrf_cookie_name'] = 'csrf_cookie_name';
+$config['csrf_token_name'] = 'csrf_ikutaja';
+$config['csrf_cookie_name'] = 'csrf_cookie_ikutaja';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();

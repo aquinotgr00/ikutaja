@@ -5,10 +5,6 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['test-api'] = 'rest_server';
-
-$route['siswa/(:num)'] = 'siswa/single/$1';
-
 /*
 | -------------------------------------------------------------------------
 | Sample REST API Routes

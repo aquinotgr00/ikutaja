@@ -1,0 +1,14 @@
+{
+  "name": "aquinotgr/ikutaja",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Aquino Tegar",
+          "email": "aquinotgr@pm.me"
+      }
+  ],
+  "require": {
+      "firebase/php-jwt": "^5.0"
+  }
+}

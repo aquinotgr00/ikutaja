@@ -8,8 +8,4 @@ IkutAja is a platform for organiser to connect to their volunteers.
 
 ## How to use this
 1. config your database credentials in application/config/database
-2. change application/config/config:
-  * base_url = 'http://your-site.dev',
-3. add these to application/config/autoload:
-  * libraries = ('database'),
-  * helper = ('url'),
+2. cd to application folder and run composer install
