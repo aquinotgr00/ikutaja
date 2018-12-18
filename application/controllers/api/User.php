@@ -14,23 +14,37 @@ class User extends REST_Controller
   public function index_get($id = null)
   {
     $headers = $this->input->request_headers();
-    // $this->set_response($headers, 200);
-    // return;
+    
     if (Authorization::tokenIsExist($headers)) {
       $token = Authorization::validateToken($headers['Authorization']);
       if ($token != false) {
-        $user = ($id != null)
-          ? $this->User_model->get($id)
-          : $this->User_model->all();
-        $this->set_response($user, REST_Controller::HTTP_OK);
+        $response = [
+          'message' => 'Berhasil menampilkan user(s).',
+          'success' => 1,
+          'http_status' => 200,
+          'result' => [
+            'users' => ($id != null)
+              ? $this->User_model->get($id)
+              : $this->User_model->all()
+            ]
+        ];
+        ($response['result']['users'] == false)
+          ? $response = [
+              'message' => 'Tidak ada user dengan id ini.',
+              'success' => 0,
+              'http_status' => 404,
+            ]
+          : '';
+        $this->set_response($response);
         return;
       }
     }
     $response = [
-      'status' => REST_Controller::HTTP_FORBIDDEN,
-      'message' => 'Forbidden',
+      'message' => 'Gagal menampilkan user(s). Dilarang.',
+      'success' => 0,
+      'http-status' => 503,
     ];
-    $this->set_response($response, REST_Controller::HTTP_FORBIDDEN);
+    $this->set_response($response);
   }
 
   public function delete_post($id)
@@ -40,26 +54,31 @@ class User extends REST_Controller
     if (Authorization::tokenIsExist($headers)) {
       $token = Authorization::validateToken($headers['Authorization']);
       if ($token != false) {
-        $dataPost = $this->input->post();
-        $id = $this->User_model->create($dataPost, $token);
         if ($id != false) {
+          $response = [
+            'message' => 'User berhasil di hapus.',
+            'status' => 1,
+            'http_status' => 200,
+          ];
           $this->User_model->delete($id);
-          $this->set_response('user deleted successfully', REST_Controller::HTTP_OK);
+          $this->set_response($response);
           return;
         }
       }
       $response = [
-        'status' => REST_Controller::HTTP_UNAUTHORIZED,
-        'message' => 'Unauthorized',
+        'message' => 'Gagal menghapus user. Dilarang.',
+        'status' => 0,
+        'http_status' => 503,
       ];
-      $this->set_response($response, REST_Controller::HTTP_UNAUTHORIZED);
+      $this->set_response($response);
       return;
     }
     $response = [
-      'status' => REST_Controller::HTTP_FORBIDDEN,
-      'message' => 'Forbidden',
+      'message' => 'Dilarang.',
+      'status' => 0,
+      'http_status' => 503,
     ];
-    $this->set_response($response, REST_Controller::HTTP_FORBIDDEN);
+    $this->set_response($response);
   }
 
   public function index_post()
@@ -73,21 +92,37 @@ class User extends REST_Controller
         $id = $this->User_model->create($dataPost, $token);
         if ($id != false) {
           $user = $this->User_model->get($id);
-          $this->set_response($user, REST_Controller::HTTP_OK);
+          if ($user) {
+            $response = [
+              'message' => 'Berhasil menambahkan user.',
+              'success' => 1,
+              'http_status' => 200,
+              'result' => $user
+            ];
+          } else {
+            $response = [
+              'message' => 'Gagal menambahkan user.',
+              'success' => 0,
+              'http_status' => 200,
+            ];
+          }
+          $this->set_response($response);
           return;
         }
       }
       $response = [
-        'status' => REST_Controller::HTTP_UNAUTHORIZED,
-        'message' => 'Unauthorized',
+        'message' => 'Gagal! Terjadi masalah.',
+        'status' =>  0,
+        'http_status' => 503,
       ];
-      $this->set_response($response, REST_Controller::HTTP_UNAUTHORIZED);
+      $this->set_response($response);
       return;
     }
     $response = [
-      'status' => REST_Controller::HTTP_FORBIDDEN,
-      'message' => 'Forbidden',
+      'message' => 'Gagal! Dilarang.',
+      'status' => 0,
+      'http_status' => 503,
     ];
-    $this->set_response($response, REST_Controller::HTTP_FORBIDDEN);
+    $this->set_response($response);
   }
 }

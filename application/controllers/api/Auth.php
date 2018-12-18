@@ -26,9 +26,14 @@ class Auth extends REST_Controller
       $date = new DateTime();
       $tokenData['iat'] = $date->getTimestamp();
       $tokenData['exp'] = $date->getTimestamp() + 60*60*5;
-      $response['token'] = Authorization::generateToken($tokenData);
+      $response = [
+        'message' => 'Berhasil masuk.',
+        'success' => 1,
+        'http_status' => REST_Controller::HTTP_OK,
+        'result' => ['token' => Authorization::generateToken($tokenData)]
+      ];
       // give back the token and set response to http 200.
-      $this->set_response($response, REST_Controller::HTTP_OK);
+      $this->set_response($response);
     }
     else {
       // Set invalid login and show response accordingly.
