@@ -4,8 +4,9 @@ class User_model extends CI_Model {
   public function all()
   {
     $query = $this->db
+      ->select('username, email, type, phone')
       ->get('users');
-    if ($query->num_rows() > 1) {
+    if ($query->num_rows() >= 1) {
       return $query->result();
     }
     return false;
@@ -14,6 +15,7 @@ class User_model extends CI_Model {
   public function get($id)
   {
     $user = $this->db
+      ->select('username, email, type, phone')
       ->get_where('users', ['id' => $id])
       ->row();
     if ($user) {
@@ -26,7 +28,9 @@ class User_model extends CI_Model {
   {
     $data = [
       'username' => $post['username'],
-      'email' => $post['email']
+      'email' => $post['email'],
+      'phone' => $post['phone'],
+      'type' => $post['type'],
     ];
     if (isset($post['id']) && $post['id'] != null) {
       $this->db->where(['id' => $post['id']]);
@@ -34,7 +38,6 @@ class User_model extends CI_Model {
       return $post['id'];
     }
     $data['password'] = password_hash($post['password'], PASSWORD_BCRYPT);
-    $this->db->insert('users', $data);
     return $this->db->insert_id();
   }
 
