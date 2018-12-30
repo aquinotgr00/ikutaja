@@ -35,141 +35,100 @@
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--1">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery1.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery1.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/1.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/1.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--2">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery2.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery2.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/2.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/2.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery3.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery3.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/3.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/3.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery4.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery4.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/4.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/4.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--2">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery5.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery5.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/5.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/5.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery6.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery6.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/6.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/6.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery7.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery7.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/7.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/7.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery8.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery8.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/8.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/8.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery9.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery9.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/9.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/9.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2 cat--1">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery10.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery10.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/10.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/10.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery11.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery11.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/11.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/11.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
                     <!--Single Gallery Image Start-->
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--1">
                         <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery12.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery12.jpg');?>" alt=""></a>
+                            <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/12.jpg" data-fancybox="gallery">
+                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/12.jpg" alt=""></a>
                         </div>
                     </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
-                        <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery13.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery13.jpg');?>" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2 cat--1">
-                        <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery14.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery14.jpg');?>" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
-                        <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery15.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery15.jpg');?>" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->
-                    <!--Single Gallery Image Start-->
-                    <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--1">
-                        <div class="single-gallery-img mb-30">
-                            <a href="<?php echo base_url('assets/img/gallery/gallery16.jpg');?>" data-fancybox="gallery">
-                            <img src="<?php echo base_url('assets/img/gallery/gallery16.jpg');?>" alt=""></a>
-                        </div>
-                    </div>
-                    <!--Single Gallery Image End-->                    
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <!--See More Button Start-->
-                        <div class="see-more-btn">
-                            <a href="#">see more</a>
-                        </div>
-                        <!--See More Button End-->
-                    </div>
-                </div>
+                    <!--Single Gallery Image End-->                                       
+                </div>                
             </div>
         </div>
 		<!--Gallery Area End-->    

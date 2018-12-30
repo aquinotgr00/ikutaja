@@ -4,10 +4,10 @@
 		        <div class="row">
 		            <div class="col-12">
 		                <div class="breadcrumb-content text-center">
-                            <h1 class="breadmome-name">Jadi Relawan</h1>
+                            <h1 class="breadmome-name">Jadi Pelaksana</h1>
 		                    <ul>
 		                        <li><a href="<?php echo base_url('/');?>">Home</a></li>
-		                        <li class="active">Jadi Relawan</li>
+		                        <li class="active">Jadi Pelaksana</li>
 		                    </ul>
 		                </div>
 		            </div>
@@ -32,7 +32,7 @@
                     <div class="col-md-12 col-lg-6">
                         <!--Volunteer About Content Area Start-->
                         <div class="volunteer-about-content">
-                            <h2>Jadi Relawan</h2>
+                            <h2>Jadi Pelaksana</h2>
                             <h3>Join The Winning Team</h3>
                             <p>It allows you to gather monthly subscriptions from fans to help fund your creative projects. They also encourage their users to offer rewards to fans as a way to repay them for their support.</p>
                         </div>
@@ -48,12 +48,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="signup-title">
-                            <h2>Jadilah Relawan <span>Sekarang</span></h2>
+                            <h2>Jadilah Pelaksana <span>Sekarang</span></h2>
                         </div>
                         <div class="page-content">
                             <div class="volunteer-form">
                                <div class="volunteer-form-title">
-                                    <h3>You are new volunteer</h3>
+                                    <h3>You are new Pelaksana</h3>
                                 </div>
                                 <form action="#">
                                     <div class="row">

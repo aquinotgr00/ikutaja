@@ -2,30 +2,24 @@
 		<div class="slider-area">
 		    <div class="hero-slider owl-carousel">
 
-		        <div class="single-slider" style="background-image: url(<?php echo base_url('assets/img/slider/slide2-home-1.jpg');?>)"> 
+		        <div class="single-slider" style="background-image: url(https://res.cloudinary.com/ikutaja/image/upload/v1546102555/img/slider/1.jpg)"> 
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
                                 <div class="hero-slider-content">
-                                    <h1>Bantuanmu membuat hidup kita lebih baik</h1>
-                                    <div class="slider-btn">
-                                        <a class="default-btn" href="#">Baca lagi</a>
-                                    </div>
+                                    <h1>Bantuanmu membuat hidup kita lebih baik</h1>                                    
                                 </div>
                             </div>
                         </div>
                     </div>
 		        </div>				
 				
-		        <div class="single-slider" style="background-image: url(<?php echo base_url('assets/img/slider/slide1-home-1.jpg');?>)">   
+		        <div class="single-slider" style="background-image: url(https://res.cloudinary.com/ikutaja/image/upload/v1546102555/img/slider/2.jpg)">   
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
                                 <div class="hero-slider-content">
                                     <h1>Ajaranmu akan membuat dunia lebih baik</h1>
-                                    <div class="slider-btn">
-                                        <a class="default-btn" href="#">Baca lagi</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +96,7 @@
 			</div>
 			
 		    <div class="service-image">
-		        <img src="<?php echo base_url('assets/img/service/service1.png');?>" alt="">
+		        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102402/img/service/1.png" alt="">
 			</div>			
 		</div>
 		<!-- area servis -->
@@ -119,7 +113,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="<?php echo base_url('assets/img/event/event1.jpg');?>" alt="">
+		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/1.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -129,7 +123,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="<?php echo base_url('assets/img/event/event2.jpg');?>" alt="">
+		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/2.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Pure Drinking Water for helpless people</h3>
@@ -139,7 +133,7 @@
 		                   
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="<?php echo base_url('assets/img/event/event3.jpg');?>" alt="">
+		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/3.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -149,7 +143,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="<?php echo base_url('assets/img/event/event4.jpg');?>" alt="">
+		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/4.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Pure Drinking Water for helpless people</h3>
@@ -159,7 +153,7 @@
 		                   
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="<?php echo base_url('assets/img/event/event5.jpg');?>" alt="">
+		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/5.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -184,7 +178,7 @@
 								Meminimalisir orang orang yang merasa sakit dan kurang.</p>
                             <p>Kami percaya akan hadir peradaban dunia yang lebih baik. Semua masalah kemanusiaan
 								dapat diselesaikan dengan membangun kedermawanan dan kerelawanan global.</p>
-                            <a class="default-btn" href="<?php echo base_url('Ikutaja/eventsAll'); ?>">SELEBIHNYA</a>
+                            <a class="default-btn" href="<?php echo base_url('eventsAll'); ?>">SELEBIHNYA</a>
 						</div>
 						
 		            </div>
@@ -258,7 +252,7 @@
                                     <p>CEO Galang Dana</p>
                                 </div>
                                 <div class="author-img">
-									<img src="<?php echo base_url('assets/img/testimonial/testi1.jpg');?>" alt="">                                    
+									<img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/1.jpg" alt="">                                    
                                 </div>
                             </div>
                         </div>                        
@@ -276,7 +270,7 @@
                                     <p>CEO Indo Volunteer</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="<?php echo base_url('assets/img/testimonial/testi2.jpg');?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -294,7 +288,7 @@
                                     <p>CEO Simpan Berikan</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="<?php echo base_url('assets/img/testimonial/testi3.jpg');?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/3.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -313,7 +307,7 @@
                                     <p>CEO Donasi Kita</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="<?php echo base_url('assets/img/testimonial/testi4.jpg');?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/4.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -331,31 +325,31 @@
 					
 					<div class="col-12">						
 						<div class="single-project img-full">						
-							<a href="https://www.cimbclicks.co.id/ib-cimbniaga/Login.html"><img src="<?php echo base_url('assets/img/sponsor/sponsor1.png');?>" alt=""></a>
+							<a href="https://www.cimbclicks.co.id/ib-cimbniaga/Login.html"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/1.png" alt=""></a>
 						</div>					
 					</div>
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://www.go-jek.com/"><img src="<?php echo base_url('assets/img/sponsor/sponsor2.png');?>" alt=""></a>
+							<a href="https://www.go-jek.com/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/2.png" alt=""></a>
 						</div>						
 					</div>
 
 					<div class="col-12">					
 							<div class="single-project img-full">
-								<a href="http://www.amikom.ac.id/"><img src="<?php echo base_url('assets/img/sponsor/sponsor3.png');?>" alt=""></a>
+								<a href="http://www.amikom.ac.id/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/3.png" alt=""></a>
 							</div>						
 						</div>					
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://ib.bri.co.id/ib-bri/"><img src="<?php echo base_url('assets/img/sponsor/sponsor4.png');?>" alt=""></a>
+							<a href="https://ib.bri.co.id/ib-bri/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/4.png" alt=""></a>
 						</div>						
 					</div>
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://www.grab.com/id/"><img src="<?php echo base_url('assets/img/sponsor/sponsor5.png');?>" alt=""></a>
+							<a href="https://www.grab.com/id/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/5.png" alt=""></a>
 						</div>						
 					</div>					
 

@@ -1,12 +1,12 @@
-		<!-- cabang -->
-		<div class="breadcrumb-area">
+  		<!-- cabang -->
+          <div class="breadcrumb-area">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-12">
 		                <div class="breadcrumb-content text-center">
                             <h1 class="breadmome-name">Tentang</h1>
 		                    <ul>
-		                        <li><a href="<?php echo base_url('/');?>">Home</a></li>
+		                        <li><a href="<?php echo base_url('about/'); ?>">Home</a></li>
 		                        <li class="active">Tentang</li>
 		                    </ul>
 		                </div>
@@ -14,107 +14,48 @@
 		        </div>
 		    </div>
 		</div>
-		<!-- cabang -->
-		
-		<!--About Area Start-->
-		<div class="about-area pt-100">
+        <!-- cabang -->
+		                    
+        <!--Our Causes Area Start-->
+		<div class="about-area pt-50">
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-lg-6 col-12">
+		            <div class="col-12">
+		                <!--Section Title Start-->
+		                <div class="section-title">
+                            <h2>Tentang Ikutaja</h2>
+                            <p class="pb-20">Kami adalah sekelompok orang-orang biasa yang ingin menjadi bagian dari usaha dalam membuat Indonesia menjadi lebih baik.</p>                            
+		                    <p class="pb-30">Misi kami adalah untuk membuat kolaborasi antara relawan dan komunitas dengan misi yang hebat menjadi lebih mudah.</p>                            
+                            <a class="default-btn" href="<?php echo base_url('about/misi');?>">Misi Hebat Kami</a>		    
+		                </div>
+		                <!--Section Title End-->
+		            </div>
+		        </div>		    		        
+		    </div>
+		</div>
+        <!--Our Event Area End-->      
+        
+        <div class="about-area pt-50">
+		    <div class="container">
+		        <div class="row">	
+                    <div class="col-md-6 offset-md-3 center">
 		                <!--About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">
-		                        <h2>Volunteer</h2>
-		                        <img src="<?php echo base_url('assets/img/about/about1.png');?>" alt="">
+		                        <h2>Ikutaja</h2>
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101376/img/about/1.png" alt="">
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->
-		            </div>
-		            <div class="col-lg-6 col-12">
+		            </div>	            
+		            <div class="col-md-6 offset-md-3 center pt-30 pb-50">
 		                <!--About Content Area Start-->
-		                <div class="about-content">
-		                    <h2>Astha</h2>
-		                    <h3>We Belive...</h3>
-		                    <h4>Happy World, Happy Pepole</h4>
-		                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
-		                    <a class="default-btn" href="#">DONATE</a>
+		                <div class="section-title">		                    		                    
+							<a class="default-btn" href="<?php echo base_url('about/team');?>">Kenali Tim Ikutaja</a>
 		                </div>
 		                <!--About Content Area End-->
 		            </div>
 		        </div>
 		    </div>
 		</div>
-		<!--About Area End-->
-		<!--Service Area Start-->
-		<div class="service-area">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-lg-7">
-		                <div class="row">
-		                    <div class="col-12">
-		                        <div class="service-section-title mb-40">
-		                            <h2>What we do</h2>
-		                            <h3>Always try to do better for humanity</h3>
-		                            <p>Pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally </p>
-		                        </div>
-		                    </div>
-		                </div>
-		                <div class="row">
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Make Donation</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Give Scholarship</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Become a Volunteer</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Organize Entertainment</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Food & Water Supply</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                    <div class="col-md-6">
-		                        <!--Single Service Start-->
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Protect Environment</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>
-		                        <!--Single Service End-->
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		    <div class="service-image">
-				<img src="<?php echo base_url('assets/img/service/service1.png');?>" alt="">		        
-		    </div>
-		</div>
-		<!--Service Area End-->
+   

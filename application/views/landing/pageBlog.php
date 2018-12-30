@@ -28,29 +28,29 @@
                                       <ul>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="<?php echo base_url('Ikutaja/blog'); ?>"><img src="<?php echo base_url('assets/img/rc-img/rc-img1.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/1.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 18,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Children Help</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Children Help</a></h4>
                                               </div>
                                           </li>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="<?php echo base_url('Ikutaja/blog'); ?>"><img src="<?php echo base_url('assets/img/rc-img/rc-img2.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/2.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 16,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Clean Watter Foundation</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Clean Watter Foundation</a></h4>
                                               </div>
                                           </li>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="<?php echo base_url('Ikutaja/blog'); ?>"><img src="<?php echo base_url('assets/img/rc-img/rc-img3.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/3.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 14,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Help African children</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Help African children</a></h4>
                                               </div>
                                           </li>
                                       </ul>
@@ -75,29 +75,29 @@
                                       <ul>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="<?php echo base_url('Ikutaja/blog'); ?>"><img src="<?php echo base_url('assets/img/rc-img/rc-img1.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/1.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 18,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Children Help</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Children Help</a></h4>
                                               </div>
                                           </li>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="single-causes.html"><img src="<?php echo base_url('assets/img/rc-img/rc-img2.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/2.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 16,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Clean Watter Foundation</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Clean Watter Foundation</a></h4>
                                               </div>
                                           </li>
                                           <li>
                                               <div class="rc-post-thumb img-full">
-                                                  <a href="single-causes.html"><img src="<?php echo base_url('assets/img/rc-img/rc-img3.jpg'); ?>" alt=""></a>
+                                                  <a href="<?php echo base_url('blog'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/3.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 14,  2018</div>
-                                                  <h4><a href="<?php echo base_url('Ikutaja/blog'); ?>">Help African children</a></h4>
+                                                  <h4><a href="<?php echo base_url('blog'); ?>">Help African children</a></h4>
                                               </div>
                                           </li>
                                       </ul>
@@ -105,7 +105,7 @@
                             </div>
                           <div class="single-sidebar-widget">
                                 <div class="widget-banner img-full">
-                                    <a href="<?php echo base_url('#'); ?>"><img src="<?php echo base_url('assets/img/banner/banner1.png'); ?>" alt=""></a>
+                                    <a href="<?php echo base_url('#'); ?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101403/img/banner/1.jpg" alt=""></a>
                                 </div>
                             </div>
                           <div class="single-sidebar-widget">
@@ -124,7 +124,7 @@
                    <div class="col-lg-9 order-1 order-lg-2">
                         <div class="blog-wrapper blog-details">
                             <div class="blog-img img-full">
-                                <img src="<?php echo base_url('assets/img/blog/large/blog1.jpg'); ?>" alt="">
+                                <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546103847/img/blog/large.jpg" alt="">
                             </div>
                             <div class="blog-content details-content">
                                 <ul class="meta">
@@ -139,14 +139,12 @@
                                        <ul class="blog-post-list">
                                             <li> Astha boluptatum deleniti atque corrupti sdolores et quas molestias cepturi sint  eca itate non similique </li>
                                             <li> Astha boluptatum deleniti atque corrupti sdolores et quas cepturi sint  eca itate non similique </li>
-                                            <li> Astha boluptatum deleniti atque corrupti sdolores et quas molestias cepturi sint  eca itate non similique </li>
-                                            <li> Astha boluptatum deleniti atque corrupti sdolores et quas molestias  non similique </li>
-                                            <li> Astha boluptatum deleniti atque corrupti sdolores et quas molestias cepturi sint  eca itate </li>
+                                            <li> Astha boluptatum deleniti atque corrupti sdolores et quas molestias cepturi sint  eca itate non similique </li>                                            
                                         </ul>
                                    </div>
                                     <div class="col-md-6">
                                         <div class="blog-post-list-img img-full">
-                                        <img src="<?php echo base_url('assets/img/blog/large/blog2.jpg'); ?>" alt="">
+                                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546104129/img/blog/small.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +157,7 @@
                             <h4 class="small-title">Author</h4>
                             <div class="blog-author-box">
                                 <div class="blog-author-img">
-                                    <img src="<?php echo base_url('assets/img/author/author1.jpg'); ?>" alt="">                                    
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546104223/img/author/1.jpg" alt="">                                    
                                 </div>
                                 <div class="blog-author-content">
                                     <h6>Stuart Smith</h6>
@@ -195,7 +193,7 @@
                             <h4 class="small-title">Comments</h4>
                             <div class="comment">
                                 <div class="blog-author-img">
-                                    <img src="<?php echo base_url('assets/img/author/author2.jpg'); ?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546104223/img/author/2.jpg" alt="">
                                 </div>
                                 <div class="comment-content">
                                     <div class="comment-content-top">
@@ -210,7 +208,7 @@
                             </div>
                             <div class="comment reply">
                                 <div class="blog-author-img">
-                                    <img src="<?php echo base_url('assets/img/author/author3.jpg'); ?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546104223/img/author/3.jpg" alt="">
                                 </div>
                                 <div class="comment-content">
                                     <div class="comment-content-top">
@@ -225,7 +223,7 @@
                             </div>
                             <div class="comment">
                                 <div class="blog-author-img">
-                                    <img src="<?php echo base_url('assets/img/author/author4.jpg'); ?>" alt="">
+                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546104223/img/author/4.jpg" alt="">
                                 </div>
                                 <div class="comment-content">
                                     <div class="comment-content-top">
