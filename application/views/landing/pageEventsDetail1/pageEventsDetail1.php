@@ -6,7 +6,7 @@
 		                <div class="breadcrumb-content text-center">
                             <h1 class="breadmome-name">Detail Event</h1>
 		                    <ul>
-		                        <li><a href="<?php echo base_url('/'); ?>">Home</a></li>
+		                        <li><a href="<?php echo base_url('pages/events1'); ?>">Event All</a></li>
 		                        <li class="active">Detail Event</li>
 		                    </ul>
 		                </div>
@@ -23,7 +23,7 @@
 		            <div class="col-lg-9">
 		                <div class="event-left-sidebar-area">
 		                    <div class="event-img img-full">
-		                        <img src="<?php echo base_url('assets/img/event/event-large.jpg'); ?>" alt="">
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101541/img/event/wide.jpg" alt="">
 		                    </div>
 		                    <div class="event-location">
 		                        <div class="event-vanue">
@@ -94,7 +94,7 @@
                                                         <p>Donetor, CEO of Axion</p>
                                                     </div>
                                                     <div class="author-img">
-                                                        <img src="<?php echo base_url('assets/img/testimonial/testi3.jpg'); ?>" alt="">                                                        
+                                                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102715/img/testimoni/3.jpg" alt="">                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,7 +107,7 @@
                                                         <p>Donetor, GM of Retro</p>
                                                     </div>
                                                     <div class="author-img">
-                                                    <img src="<?php echo base_url('assets/img/testimonial/testi3.jpg'); ?>" alt="">
+                                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102715/img/testimoni/3.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,7 +156,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">                                                  
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img1.jpg'); ?>" alt=""></a>
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/1.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 18,  2018</div>
@@ -166,7 +166,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img2.jpg'); ?>" alt=""></a>
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/2.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 16,  2018</div>
@@ -176,7 +176,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img3.jpg'); ?>" alt=""></a>
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/3.jpg" alt=""></a>
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 14,  2018</div>
@@ -206,7 +206,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img1.jpg'); ?>" alt=""></a>                                                  
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/1.jpg" alt=""></a>                                                  
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 18,  2018</div>
@@ -216,7 +216,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img2.jpg'); ?>" alt=""></a>                                                  
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/2.jpg" alt=""></a>                                                  
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 16,  2018</div>
@@ -226,7 +226,7 @@
                                           <li>
                                               <div class="rc-post-thumb img-full">
                                                   <a href="#">
-                                                  <img src="<?php echo base_url('assets/img/rc-img/rc-img3.jpg'); ?>" alt=""></a>                                                  
+                                                  <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102334/img/rc-img/3.jpg" alt=""></a>                                                  
                                               </div>
                                               <div class="rc-post-content">
                                                   <div class="widget-date">january 14,  2018</div>
@@ -238,7 +238,7 @@
                             </div>
                             <div class="single-sidebar-widget">
                                 <div class="widget-banner img-full">
-                                    <a href="#"><img src="<?php echo base_url('assets/img/banner/banner2.png'); ?>" alt=""></a>
+                                    <a href="#"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101403/img/banner/1.jpg" alt=""></a>
                                 </div>
                             </div>
                             <div class="single-sidebar-widget">
