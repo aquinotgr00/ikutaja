@@ -29,7 +29,6 @@ class Auth extends REST_Controller
       $response = [
         'message' => 'Berhasil masuk.',
         'success' => 1,
-        'http_status' => REST_Controller::HTTP_OK,
         'result' => ['token' => Authorization::generateToken($tokenData)]
       ];
       // give back the token and set response to http 200.
@@ -37,8 +36,11 @@ class Auth extends REST_Controller
     }
     else {
       // Set invalid login and show response accordingly.
-      $invalidLogin = ['invalid' => $dataPost['username'], 'message' => 'Wrong Credentials. Please try again'];
-      $this->set_response($invalidLogin, REST_Controller::HTTP_NOT_FOUND);
+      $invalidLogin = [
+        'message' => 'Wrong Credentials. Please try again',
+        'success' => 0
+      ];
+      $this->set_response($invalidLogin, 404);
     }
   }
 }
