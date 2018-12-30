@@ -32,19 +32,17 @@ class Volunteer extends REST_Controller
           ? $response = [
               'message' => 'Tidak ada volunteer.',
               'success' => 0,
-              'http_status' => 404,
             ]
           : '';
-        $this->set_response($response);
+        $this->set_response($response, 404);
         return;
       }
     }
     $response = [
       'message' => 'Gagal menampilkan volunteer(s). Dilarang.',
       'success' => 0,
-      'http-status' => 503,
     ];
-    $this->set_response($response);
+    $this->set_response($response, 503);
   }
 
   public function delete_post($id)
@@ -58,7 +56,6 @@ class Volunteer extends REST_Controller
           $response = [
             'message' => 'volunteer berhasil di hapus.',
             'status' => 1,
-            'http_status' => 200,
           ];
           $this->Volunteer_model->delete($id);
           $this->set_response($response);
@@ -68,15 +65,13 @@ class Volunteer extends REST_Controller
       $response = [
         'message' => 'Gagal menghapus volunteer. Dilarang.',
         'status' => 0,
-        'http_status' => 503,
       ];
-      $this->set_response($response);
+      $this->set_response($response, 503);
       return;
     }
     $response = [
       'message' => 'Dilarang.',
       'status' => 0,
-      'http_status' => 503,
     ];
     $this->set_response($response);
   }
@@ -103,26 +98,23 @@ class Volunteer extends REST_Controller
             $response = [
               'message' => 'Gagal menambahkan volunteer.',
               'success' => 0,
-              'http_status' => 200,
             ];
           }
-          $this->set_response($response);
+          $this->set_response($response, 404);
           return;
         }
       }
       $response = [
         'message' => 'Gagal! Terjadi masalah.',
         'status' =>  0,
-        'http_status' => 503,
       ];
-      $this->set_response($response);
+      $this->set_response($response, 503);
       return;
     }
     $response = [
       'message' => 'Gagal! Dilarang.',
       'status' => 0,
-      'http_status' => 503,
     ];
-    $this->set_response($response);
+    $this->set_response($response, 503);
   }
 }
