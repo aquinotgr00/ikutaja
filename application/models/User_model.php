@@ -38,6 +38,7 @@ class User_model extends CI_Model {
       return $post['id'];
     }
     $data['password'] = password_hash($post['password'], PASSWORD_BCRYPT);
+    $this->db->insert('users', $data);
     return $this->db->insert_id();
   }
 

@@ -37,6 +37,7 @@ class Volunteer_model extends CI_Model {
       $this->db->update('volunteers', $data);
       return $post['id'];
     }
+    $this->db->insert('volunteers', $data);
     return $this->db->insert_id();
   }
 

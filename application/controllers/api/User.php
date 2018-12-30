@@ -32,19 +32,17 @@ class User extends REST_Controller
           ? $response = [
               'message' => 'Tidak ada user dengan id ini.',
               'success' => 0,
-              'http_status' => 404,
             ]
           : '';
-        $this->set_response($response);
+        $this->set_response($response, 404);
         return;
       }
     }
     $response = [
       'message' => 'Gagal menampilkan user(s). Dilarang.',
       'success' => 0,
-      'http-status' => 503,
     ];
-    $this->set_response($response);
+    $this->set_response($response, 503);
   }
 
   public function delete_post($id)
@@ -58,7 +56,6 @@ class User extends REST_Controller
           $response = [
             'message' => 'User berhasil di hapus.',
             'status' => 1,
-            'http_status' => 200,
           ];
           $this->User_model->delete($id);
           $this->set_response($response);
@@ -68,17 +65,15 @@ class User extends REST_Controller
       $response = [
         'message' => 'Gagal menghapus user. Dilarang.',
         'status' => 0,
-        'http_status' => 503,
       ];
-      $this->set_response($response);
+      $this->set_response($response, 503);
       return;
     }
     $response = [
       'message' => 'Dilarang.',
       'status' => 0,
-      'http_status' => 503,
     ];
-    $this->set_response($response);
+    $this->set_response($response, 503);
   }
 
   public function index_post()
@@ -96,14 +91,12 @@ class User extends REST_Controller
             $response = [
               'message' => 'Berhasil menambahkan user.',
               'success' => 1,
-              'http_status' => 200,
               'result' => $user
             ];
           } else {
             $response = [
               'message' => 'Gagal menambahkan user.',
               'success' => 0,
-              'http_status' => 200,
             ];
           }
           $this->set_response($response);
@@ -113,16 +106,14 @@ class User extends REST_Controller
       $response = [
         'message' => 'Gagal! Terjadi masalah.',
         'status' =>  0,
-        'http_status' => 503,
       ];
-      $this->set_response($response);
+      $this->set_response($response, 503);
       return;
     }
     $response = [
       'message' => 'Gagal! Dilarang.',
       'status' => 0,
-      'http_status' => 503,
     ];
-    $this->set_response($response);
+    $this->set_response($response, 503);
   }
 }
