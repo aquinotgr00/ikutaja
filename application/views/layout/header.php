@@ -2,6 +2,12 @@
 
 	<!-- wadah -->
 	<div class="wrapper">
+
+        <!-- Message notification -->
+        <div class="msg-notif alert alert-success" id="msg-notif" role="alert">
+            <h4 class="alert-heading" id="msg-notif-heading">Success</h4>
+        </div>
+        <!-- End of Message notification -->
 		
 		<!-- header -->
 		<header>
