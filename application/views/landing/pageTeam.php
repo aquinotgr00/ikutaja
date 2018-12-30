@@ -24,11 +24,11 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="<?php echo base_url('assets/img/team/team1.jpg');?>" alt="">
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102609/img/team/1.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-								<h3 class="member-name"><a href="<?php echo base_url('Ikutaja/teamDetail1');?>">Aquino Tegar</a></h3>		                        
-		                        <p class="designation">CEO</p>
+								<h3 class="member-name"><a href="<?php echo base_url('about/teamDetail1');?>">Aquino Tegar</a></h3>		                        
+		                        <p class="designation">Chief Executive Officer</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
 		                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -43,11 +43,11 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="<?php echo base_url('assets/img/team/team2.jpg');?>" alt="">
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/2.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('Ikutaja/teamDetail2');?>">Deyan Bunayya</a></h3>
-		                        <p class="designation">SEO</p>
+		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail2');?>">Samsaraji Deyanbunayya</a></h3>
+		                        <p class="designation">UI / UX</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
 		                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -62,16 +62,16 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="<?php echo base_url('assets/img/team/team3.jpg');?>" alt="">
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/3.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('Ikutaja/teamDetail3');?>">Hilmi Afifi Al-Atsari</a></h3>
-		                        <p class="designation">FRONTEND DEV</p>
+		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail3');?>">Hilmi Afifi Al-Atsari</a></h3>
+		                        <p class="designation">Front End Devs</p>
 		                        <ul>
-		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                            <li><a href="https://m.facebook.com/hilmi.afifi.al.atsari"><i class="fa fa-facebook"></i></a></li>
+		                            <li><a href="https://m.facebook.com/hilmi.afifi.al.atsari?ref=bookmarks"><i class="fa fa-twitter"></i></a></li>
+		                            <li><a href="https://www.linkedin.com/in/hilmi-al-atsari-180411172"><i class="fa fa-linkedin"></i></a></li>
+		                            <li><a href="https://www.instagram.com/hilmi.afifi.al.atsari/"><i class="fa fa-instagram"></i></a></li>
 		                        </ul>
 		                    </div>
 		                </div>
@@ -81,11 +81,11 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="<?php echo base_url('assets/img/team/team4.jpg');?>" alt="">
+		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/4.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('Ikutaja/teamDetail4');?>">Rizal Hanif Amrulloh</a></h3>
-		                        <p class="designation">BACKEND DEV</p>
+		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail4');?>">Rizal Hanif Amrulloh</a></h3>
+		                        <p class="designation">Back End Devs</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
 		                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>

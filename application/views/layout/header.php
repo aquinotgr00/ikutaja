@@ -12,7 +12,7 @@
 						<!--logo header-->
                         <div class="col-lg-3 col-md-6">
                             <div class="header-logo">
-                                <a href="<?php echo base_url('/');?>"><img src="<?php echo base_url('assets/img/logo/logo.png');?>" alt=""></a>
+                                <a href="<?php echo base_url('/');?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
 						<!--logo header-->
@@ -29,16 +29,18 @@
                                         </li>										                                                                                 
                                         <li><a href="#">PAGES</a>                                            
                                             <ul>                                                
-                                                <li><a href="<?php echo base_url('Ikutaja/jadiRelawan');?>">Jadi Relawan</a></li>
-                                                <li><a href="<?php echo base_url('Ikutaja/eventsAll');?>">Events</a></li>                                                                                               
-                                                <li><a href="<?php echo base_url('Ikutaja/galeri');?>">Galeri</a></li>
-                                                <li><a href="<?php echo base_url('Ikutaja/blog');?>">Blog</a></li>                                                
+                                                <li><a href="<?php echo base_url('pages/jadiPelaksana');?>">Jadi Pelaksana</a></li>
+                                                <li><a href="<?php echo base_url('pages/jadiRelawan');?>">Jadi Relawan</a></li>
+                                                <li><a href="<?php echo base_url('pages/events1');?>">Events</a></li>                                                                                               
+                                                <li><a href="<?php echo base_url('pages/galeri');?>">Galeri</a></li>
+                                                <li><a href="<?php echo base_url('pages/blog');?>">Blog</a></li>                                                
                                             </ul>                                            
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            
                                             <ul>
-                                                <li><a href="<?php echo base_url('Ikutaja/tentang');?>">Tentang</a></li>
-                                                <li><a href="<?php echo base_url('Ikutaja/team');?>">Team</a></li>                                                                                                
+                                                <li><a href="<?php echo base_url('about/tentang');?>">Tentang</a></li>
+                                                <li><a href="#panduan">Panduan</a></li>
+                                                <li><a href="<?php echo base_url('about/team');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
                                             </ul>                                            
                                         </li>                                                                               
 									</ul>									
@@ -52,7 +54,7 @@
                         <!--login-->
                         <div class="col-lg-2 col-md-6">
                             <div class="book-now-btn text-right">
-                                <a href="<?php echo base_url('Ikutaja/login');?>">LOGIN</a>
+                                <a href="<?php echo base_url('auth/login');?>">LOGIN</a>
                             </div>
                         </div>
 						<!--login-->
