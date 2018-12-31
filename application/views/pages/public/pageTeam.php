@@ -27,7 +27,7 @@
 		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102609/img/team/1.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-								<h3 class="member-name"><a href="<?php echo base_url('about/teamDetail1');?>">Aquino Tegar</a></h3>		                        
+								<h3 class="member-name"><a href="<?php echo base_url('teamDetail1');?>">Aquino Tegar</a></h3>		                        
 		                        <p class="designation">Chief Executive Officer</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -46,7 +46,7 @@
 		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/2.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail2');?>">Samsaraji Deyanbunayya</a></h3>
+		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail2');?>">Samsaraji Deyanbunayya</a></h3>
 		                        <p class="designation">UI / UX</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -65,7 +65,7 @@
 		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/3.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail3');?>">Hilmi Afifi Al-Atsari</a></h3>
+		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail3');?>">Hilmi Afifi Al-Atsari</a></h3>
 		                        <p class="designation">Front End Devs</p>
 		                        <ul>
 		                            <li><a href="https://m.facebook.com/hilmi.afifi.al.atsari"><i class="fa fa-facebook"></i></a></li>
@@ -84,7 +84,7 @@
 		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/4.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
-		                        <h3 class="member-name"><a href="<?php echo base_url('about/teamDetail4');?>">Rizal Hanif Amrulloh</a></h3>
+		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail4');?>">Rizal Hanif Amrulloh</a></h3>
 		                        <p class="designation">Back End Devs</p>
 		                        <ul>
 		                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>

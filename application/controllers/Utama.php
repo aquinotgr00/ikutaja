@@ -5,25 +5,25 @@ class Utama extends CI_Controller {
   	   
 	public function panduanPelaksana() {
 		$data=array('title' => 'Ikutaja - Panduan Pelaksana',
-					'landing' => 'landing/pageUtama/pagePanduanPelaksana');
+					'page' => 'pages/public/pagePanduanPelaksana');
 		$this->load->view('layout/wrapper', $data);
 	}	   
 
 	public function cariPelaksana() {
 		$data=array('title' => 'Ikutaja - Cari Pelaksana',
-					'landing' => 'landing/pageUtama/pageCariPelaksana');
+					'page' => 'pages/public/pageCariPelaksana');
 		$this->load->view('layout/wrapper', $data);
 	}	
 
 	public function panduanRelawan() {
 		$data=array('title' => 'Ikutaja - Panduan Relawan',
-					'landing' => 'landing/pageUtama/pagePanduanRelawan');
+					'page' => 'pages/public/pagePanduanRelawan');
 		$this->load->view('layout/wrapper', $data);
 	}
 
 	public function profilRelawan() {
 		$data=array('title' => 'Ikutaja - Profil Relawan',
-					'landing' => 'landing/pageUtama/pageProfilRelawan');
+					'page' => 'pages/public/pageProfilRelawan');
 		$this->load->view('layout/wrapper', $data);
 	}	 	
 }

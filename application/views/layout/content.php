@@ -1,3 +1,3 @@
 <?php
-$this->load->view($landing);
+$this->load->view($page);
 ?>

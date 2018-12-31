@@ -1,11 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$route['default_controller'] = 'ikutaja';
+$route['default_controller'] = 'Ikutaja';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['(:any)'] = 'ikutaja/$1';
+$route['(:any)'] = 'Ikutaja/$1';
+$route['(:any)'] = 'About/$1';
+$route['(:any)'] = 'Informasi/$1';
+$route['(:any)'] = 'Pages/$1';
+$route['(:any)'] = 'Utama/$1';
 
 /*
 | -------------------------------------------------------------------------

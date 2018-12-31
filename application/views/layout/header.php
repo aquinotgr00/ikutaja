@@ -2,6 +2,12 @@
 
 	<!-- wadah -->
 	<div class="wrapper">
+
+        <!-- Message notification -->
+        <div class="msg-notif alert alert-success" id="msg-notif" role="alert">
+            <h4 class="alert-heading" id="msg-notif-heading">Success</h4>
+        </div>
+        <!-- End of Message notification -->
 		
 		<!-- header -->
 		<header>
@@ -29,11 +35,11 @@
                                         </li>										                                                                                 
                                         <li><a href="#">PAGES</a>                                            
                                             <ul>                                                
-                                                <li><a href="<?php echo base_url('pages/jadiPelaksana');?>">Jadi Pelaksana</a></li>
-                                                <li><a href="<?php echo base_url('pages/jadiRelawan');?>">Jadi Relawan</a></li>
-                                                <li><a href="<?php echo base_url('pages/events1');?>">Events</a></li>                                                                                               
-                                                <li><a href="<?php echo base_url('pages/galeri');?>">Galeri</a></li>
-                                                <li><a href="<?php echo base_url('pages/blog');?>">Blog</a></li>                                                
+                                                <li><a href="<?php echo base_url('jadiPelaksana');?>">Jadi Pelaksana</a></li>
+                                                <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
+                                                <li><a href="<?php echo base_url('events1');?>">Events</a></li>                                                                                               
+                                                <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
+                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                
                                             </ul>                                            
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            
