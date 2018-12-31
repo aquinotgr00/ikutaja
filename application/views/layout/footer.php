@@ -82,6 +82,8 @@
 	</div>
 	<!-- wadah -->
 
+	<?php isset($authMiddleware) ? $this->load->view('scripts/scriptAuthMiddleware') : null ?>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>	

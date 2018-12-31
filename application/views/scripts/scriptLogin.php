@@ -1,6 +1,9 @@
 <script>
 $(document).ready(function (){
 
+  // init function from AuthMiddleware script
+  init('/volunteer/dashboard', false)
+
   const showNotifBox = ({ success, message }) => {
     const notifBox = document.querySelector('#msg-notif')
     const par = document.createElement('p')
@@ -29,7 +32,7 @@ $(document).ready(function (){
         showNotifBox(response)
       }
       localStorage.setItem('Authorization', `Bearer ${response.result.token}`)
-      window.location = '/user/dashboard'
+      window.location = '/volunteer/dashboard'
     })
   }
 
