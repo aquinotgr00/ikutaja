@@ -25,23 +25,23 @@
                             
                             <div id="checkout-login">
                                 <div class="coupon-info">
-                                    <form action="#">
+                                    <form action="#" id="login-form">
 																						
 										<a href="#" class="btn rounded border btn-block"><i class="fa fa-facebook-square"></i> Log in with Facebook</a>
 										<a href="#" class="btn rounded border btn-block"><i class="fa fa-google-plus-square"></i> Log in with Google</a>										
 										<hr class="mt-5 mb-0">
                                         <p class="pt-5 form-row-first">
                                             <label>Username atau Email <span class="required">*</span></label>
-                                            <input type="text">
+                                            <input type="text" name="username" required>
                                         </p>
                                         <p class="form-row-last">
                                             <label>Kata Sandi <span class="required">*</span></label>
-                                            <input type="text">
+                                            <input type="password" name="password" required>
                                         </p>
                                         <p class="form-row">
                                             <input value="Masuk" type="submit">
                                             <label>
-                                                <input type="checkbox">
+                                                <input type="checkbox" name="remember">
                                                  Selalu ingat saya
                                             </label>
                                         </p>                                       

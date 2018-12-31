@@ -26,10 +26,10 @@
 		                        <div class="single-footer-widget mb-30 footer-menu">
 		                            <h3 class="footer-title">Pelajari</h3>
 		                            <ul>		                                                                																														
-										<li><a href="<?php echo base_url('utama/panduanPelaksana');?>">Panduan Pelaksana</a></li>
-										<li><a href="<?php echo base_url('utama/cariPelaksana');?>">Cari Pelaksana</a></li>		                                	                                		                                                                																				
-										<li><a href="<?php echo base_url('utama/panduanRelawan');?>">Panduan Relawan</a></li>		                                	                                
-										<li><a href="<?php echo base_url('utama/profilRelawan');?>">Profil Relawan</a></li>		                                	                                
+										<li><a href="<?php echo base_url('panduanPelaksana');?>">Panduan Pelaksana</a></li>
+										<li><a href="<?php echo base_url('cariPelaksana');?>">Cari Pelaksana</a></li>		                                	                                		                                                                																				
+										<li><a href="<?php echo base_url('panduanRelawan');?>">Panduan Relawan</a></li>		                                	                                
+										<li><a href="<?php echo base_url('profilRelawan');?>">Profil Relawan</a></li>		                                	                                
 										
 		                            </ul>
 		                        </div>
@@ -39,10 +39,10 @@
 		                        <div class="single-footer-widget mb-30 footer-menu">
 		                            <h3 class="footer-title">Informasi</h3>
 		                            <ul>
-		                                <li><a href="<?php echo base_url('informasi/kontak');?>">Kontak</a></li>
-										<li><a href="<?php echo base_url('informasi/policy');?>">Policy</a></li>
-										<li><a href="<?php echo base_url('informasi/karir');?>">Karir</a></li>		                                
-		                                <li><a href="<?php echo base_url('informasi/faq');?>">FAQ</a></li>
+		                                <li><a href="<?php echo base_url('kontak');?>">Kontak</a></li>
+										<li><a href="<?php echo base_url('policy');?>">Policy</a></li>
+										<li><a href="<?php echo base_url('karir');?>">Karir</a></li>		                                
+		                                <li><a href="<?php echo base_url('faq');?>">FAQ</a></li>
 		                            </ul>
 		                        </div>
 							</div>

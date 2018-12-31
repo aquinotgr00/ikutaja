@@ -35,11 +35,11 @@
                                         </li>										                                                                                 
                                         <li><a href="#">PAGES</a>                                            
                                             <ul>                                                
-                                                <li><a href="<?php echo base_url('pages/jadiPelaksana');?>">Jadi Pelaksana</a></li>
-                                                <li><a href="<?php echo base_url('pages/jadiRelawan');?>">Jadi Relawan</a></li>
-                                                <li><a href="<?php echo base_url('pages/events1');?>">Events</a></li>                                                                                               
-                                                <li><a href="<?php echo base_url('pages/galeri');?>">Galeri</a></li>
-                                                <li><a href="<?php echo base_url('pages/blog');?>">Blog</a></li>                                                
+                                                <li><a href="<?php echo base_url('jadiPelaksana');?>">Jadi Pelaksana</a></li>
+                                                <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
+                                                <li><a href="<?php echo base_url('events1');?>">Events</a></li>                                                                                               
+                                                <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
+                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                
                                             </ul>                                            
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            

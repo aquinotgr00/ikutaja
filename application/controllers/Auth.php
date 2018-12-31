@@ -5,7 +5,8 @@ class Auth extends CI_Controller {
   	   
 	public function login() {
 		$data=array('title' => 'Ikutaja - Login',
-					'landing' => 'landing/pageLogin');
+					'page' => 'pages/public/pageLogin',
+					'xscript' => 'scripts/scriptLogin');
 		$this->load->view('layout/wrapper', $data);
     }	
 }
