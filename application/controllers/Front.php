@@ -30,7 +30,7 @@ class Front extends CI_Controller {
 	}
 	public function teamDetail1() {
 		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeamDetail/public/pageTeamDetail1');
+					'page' => 'pages/public/pageTeamDetail');
 		$this->load->view('layout/wrapper', $data);
 	}
 	/* End Halaman Team */		
