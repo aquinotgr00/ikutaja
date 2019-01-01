@@ -92,7 +92,8 @@
 	<script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/main.min.js"></script>
 	<script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/style.min.js"></script>
 	<script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>
-	<?php $xscript ? $this->load->view($xscript) : null ?>
+	
+	<!-- <?php $xscript ? $this->load->view($xscript) : null ?> -->
 
 </body>
 </html>
