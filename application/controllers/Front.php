@@ -43,14 +43,12 @@ class Front extends CI_Controller {
 
 	public function kontak() {
 		$data=array('title' => 'Ikutaja - Kontak',
-					'page' => 'pages/public/pageKontak',
-					'xscript' => 'scripts/scriptHome');
+					'page' => 'pages/public/pageKontak');					
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function policy() {
 		$data=array('title' => 'Ikutaja - Privasi Policy',
-					'page' => 'pages/public/pagePolicy',
-					'xscript' => 'scripts/scriptHome');
+					'page' => 'pages/public/pagePolicy');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function karir() {

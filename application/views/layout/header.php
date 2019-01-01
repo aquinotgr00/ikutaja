@@ -39,14 +39,14 @@
                                                 <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
                                                 <li><a href="<?php echo base_url('events1');?>">Events</a></li>                                                                                               
                                                 <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
-                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                
+                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                                                                
                                             </ul>                                            
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            
                                             <ul>
-                                                <li><a href="<?php echo base_url('about/tentang');?>">Tentang</a></li>
+                                                <li><a href="<?php echo base_url('tentang');?>">Tentang</a></li>
                                                 <li><a href="#panduan">Panduan</a></li>
-                                                <li><a href="<?php echo base_url('about/team');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
+                                                <li><a href="<?php echo base_url('team');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
                                             </ul>                                            
                                         </li>                                                                               
 									</ul>									
