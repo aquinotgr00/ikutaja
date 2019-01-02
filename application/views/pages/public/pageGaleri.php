@@ -36,7 +36,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--1">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/1.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/1.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/1.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -44,7 +44,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--2">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/2.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/2.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/2.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -52,7 +52,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/3.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/3.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/3.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -60,7 +60,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/4.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/4.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/4.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -68,7 +68,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--2">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/5.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/5.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/5.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -76,7 +76,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/6.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/6.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/6.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -84,7 +84,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/7.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/7.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/7.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -92,7 +92,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/8.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/8.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/8.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -100,7 +100,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/9.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/9.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/9.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -108,7 +108,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2 cat--1">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/10.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/10.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/10.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -116,7 +116,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--2">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/11.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/11.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/11.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->
@@ -124,7 +124,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 gallery__item cat--3 cat--1">
                         <div class="single-gallery-img mb-30">
                             <a href="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/12.jpg" data-fancybox="gallery">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/12.jpg" alt=""></a>
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101596/img/galeri/12.jpg" alt=""></a>
                         </div>
                     </div>
                     <!--Single Gallery Image End-->                                       
