@@ -23,12 +23,12 @@ class Front extends CI_Controller {
 	}	
 
 	/* Start Halaman Team */
-	public function team() {
+	public function teams() {
 		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeam');
+					'page' => 'pages/public/pageTeams');
 		$this->load->view('layout/wrapper', $data);
 	}
-	public function teamDetail1() {
+	public function teamDetail() {
 		$data=array('title' => 'Ikutaja - Team',
 					'page' => 'pages/public/pageTeamDetail');
 		$this->load->view('layout/wrapper', $data);

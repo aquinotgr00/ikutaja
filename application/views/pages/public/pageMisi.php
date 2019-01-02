@@ -36,8 +36,8 @@
 		        <div class="row">
 		            <div class="col-12">		                
 		                <div class="section-title no-img">
-                            <h2 class="text-primary">Misi Ikutaja</h2>
-                            <p class="text-primary">Ikutaja adalah organisasi nirlaba yang membuat kolaborasi antara relawan dan komunitas dengan misi yang hebat.</p>                            		                    
+                            <h2 class="text-navy">Misi Ikutaja</h2>
+                            <p class="text-navy">Ikutaja adalah organisasi nirlaba yang membuat kolaborasi antara relawan dan komunitas dengan misi yang hebat.</p>                            		                    
 		                </div>                                                
 		            </div>
 		        </div>		    		        
@@ -61,7 +61,7 @@
                             berhubungan dengan komunitas lain dan mayoritas berkegiatan dalam dana yang begitu terbatas. Dengan misinya masing-masing yang aspirasional,
                             organisasi dan komunitas ini berjalan karena adanya semangat yang besar dari orang-orang yang peduli secara konsisten
                         </p>
-                        <p class="text-primary text-center">Bukan donatur ternama, bukan pahlawan besar tapi para relawan.</p>                            		                    
+                        <p class="text-navy text-center">Bukan donatur ternama, bukan pahlawan besar tapi para relawan.</p>                            		                    
                         <p class="text-justify">
                             Di Ikutaja.id, kami percayabahwa perubahan yang bermakna untuk Indonesia hanya akan dapat tercapai jika ada lebih banyaklagi orang yang
                             terlibat dalam aktivitas komunitas sosial dan juga lebih banyaknya kolaborasi antarkomunitas. “If you want to go fast go alone, If you want
@@ -72,7 +72,7 @@
                             menghubungkan lebih banyak orang untuk dapat terlibat dalam beragam aktivitas bermakna yang dikelola oleh beragam komunitas inspirasional.
                             Kami juga ingin fasilitasi proses kolaborasi antar komunitas untuk Indonesia yang lebih baik.
                         </p>
-                        <p class="text-primary text-center">
+                        <p class="text-navy text-center">
                             Sekarang giliran anda. Ambil keputusan untuk terlibat. Tidak ada yang lebih berharga dari waktu dan talenta anda.
                             Cari aktivitas yang sesuai dan jadi seorang relawan untuk hidup yang lebih bermakna!
                         </p>                            		                    

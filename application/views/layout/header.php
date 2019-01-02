@@ -44,9 +44,9 @@
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            
                                             <ul>
-                                                <li><a href="<?php echo base_url('tentang');?>">Tentang</a></li>
-                                                <li><a href="#panduan">Panduan</a></li>
-                                                <li><a href="<?php echo base_url('team');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
+                                                <li><a href="#panduan">Lebih Lanjut</a></li>                                                
+                                                <li><a href="<?php echo base_url('tentang');?>">Tentang</a></li>                                                
+                                                <li><a href="<?php echo base_url('teams');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
                                             </ul>                                            
                                         </li>                                                                               
 									</ul>									
