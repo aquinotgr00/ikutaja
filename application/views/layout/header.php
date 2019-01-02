@@ -18,7 +18,7 @@
 						<!--logo header-->
                         <div class="col-lg-3 col-md-6">
                             <div class="header-logo">
-                                <a href="<?php echo base_url('/');?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt=""></a>
+                                <a href="<?php echo base_url('/');?>"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
 						<!--logo header-->
@@ -37,16 +37,16 @@
                                             <ul>                                                
                                                 <li><a href="<?php echo base_url('jadiPelaksana');?>">Jadi Pelaksana</a></li>
                                                 <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
-                                                <li><a href="<?php echo base_url('events1');?>">Events</a></li>                                                                                               
+                                                <li><a href="<?php echo base_url('events');?>">Events</a></li>                                                                                               
                                                 <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
-                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                
+                                                <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                                                                
                                             </ul>                                            
                                         </li>                                        
 										<li><a href="#">ABOUT</a>                                            
                                             <ul>
-                                                <li><a href="<?php echo base_url('about/tentang');?>">Tentang</a></li>
-                                                <li><a href="#panduan">Panduan</a></li>
-                                                <li><a href="<?php echo base_url('about/team');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
+                                                <li><a href="#panduan">Lebih Lanjut</a></li>                                                
+                                                <li><a href="<?php echo base_url('tentang');?>">Tentang</a></li>                                                
+                                                <li><a href="<?php echo base_url('teams');?>">Team</a></li>                                                                                                                                                                                                                                                                                               
                                             </ul>                                            
                                         </li>                                                                               
 									</ul>									

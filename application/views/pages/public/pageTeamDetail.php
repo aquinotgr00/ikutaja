@@ -23,7 +23,7 @@
                     <!--Team Image-->
                     <div class="col-lg-5 col-12">
                         <div class="team-image">
-                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/1.jpg" alt="">
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/1.jpg" alt="">
                         </div>
                     </div>
                     <!--Team Content-->
