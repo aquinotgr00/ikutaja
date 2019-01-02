@@ -90,7 +90,7 @@
 		            <div class="col-12">
 		                <!--Section Title Start-->
 		                <div class="section-title">
-                            <h2>Tentang Ikutaja</h2>
+                            <h2>Tertatik? Ikutaja Makanya</h2>
                             <p class="pb-50">
                                 Interested applicants meeting the above qualifications should send their resume
                                 to <a class="text-orange font-italic" href="mailto:karir@ikutaja.id">
