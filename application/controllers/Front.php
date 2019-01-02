@@ -74,20 +74,18 @@ class Front extends CI_Controller {
 	}	
 
 	// Event
-	public function events1() {
+	public function events() {
 			$data=array('title' => 'Ikutaja - Semua Event',
-						'page' => 'pages/public/pageEvents1');
+						'page' => 'pages/public/pageEvents');
 			$this->load->view('layout/wrapper', $data);
-	}
-	// Event
-    
-	// Semua Event1
-	public function eventsDetail1() {
+	}	    
+	
+	public function eventDetail() {
 		$data=array('title' => 'Ikutaja - Detail Event',
-					'page' => 'pages/public/pageEventsDetail1');
+					'page' => 'pages/public/pageEventDetail');
 		$this->load->view('layout/wrapper', $data);
 	}	
-    // Semua Event1
+    // Event
 
 	public function galeri() {
 		$data=array('title' => 'Ikutaja - Galeri',

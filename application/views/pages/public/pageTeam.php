@@ -24,7 +24,7 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102609/img/team/1.jpg" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102609/img/team/1.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
 								<h3 class="member-name"><a href="<?php echo base_url('teamDetail1');?>">Aquino Tegar</a></h3>		                        
@@ -43,7 +43,7 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/2.jpg" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/2.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
 		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail2');?>">Samsaraji Deyanbunayya</a></h3>
@@ -62,7 +62,7 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/3.jpg" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/3.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
 		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail3');?>">Hilmi Afifi Al-Atsari</a></h3>
@@ -81,7 +81,7 @@
 		                <!--Single Volunteer Start-->
 		                <div class="single-volunteer mb-30">
 		                    <div class="volunteer-img img-full">
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/4.jpg" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102610/img/team/4.jpg" alt="">
 		                    </div>
 		                    <div class="volunteer-content">
 		                        <h3 class="member-name"><a href="<?php echo base_url('teamDetail4');?>">Rizal Hanif Amrulloh</a></h3>

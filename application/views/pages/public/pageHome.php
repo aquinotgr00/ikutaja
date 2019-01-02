@@ -39,10 +39,9 @@
 						<div class="row">
 		                    <div class="col-12">
 		                        <div class="service-section-title mb-40">
-		                            <h2>Yang kita lakukan</h2>
-		                            <h3>Selalu berusaha untuk berbuat lebih baik bagi sesama</h3>
-		                            <p>Pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there
-										anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally </p>
+									<h2>How It's Work!</h2>
+		                            <h3>Pemimpin dalam penggalangan dana online</h3>
+		                            <p>Ikutaja dipercaya di seluruh dunia untuk platform penggalangan dana yang sederhana dan handal.</p>
 		                        </div>
 		                    </div>
 						</div>
@@ -50,53 +49,48 @@
 		                <div class="row">
 
 		                    <div class="col-md-6">		                    
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Make Donation</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+								<div class="single-service mb-30">
+		                            <h2 class="service-title">
+										<i class="fa fa-cogs" aria-hidden="true"></i> 
+										Pengaturan sederhana
+									</h2>
+		                            <p class="pl-30">Anda dapat mempersonalisasi dan membagikan Rate Ikutaja Anda, hanya dalam beberapa menit.</p>
 		                        </div>		                        
 							</div>
 							
 		                    <div class="col-md-6">
 		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Give Scholarship</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+		                            <h2 class="service-title">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										Jangkauan sosial</h2>
+		                            <p class="pl-30">Manfaatkan kekuatan media sosial untuk menyebarkan kisah Anda dan dapatkan lebih banyak dukungan.</p>
 		                        </div>		                        
 							</div>
 							
 		                    <div class="col-md-6">		                        
 		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Become a Volunteer</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+									<h2 class="service-title">
+										<i class="fa fa-building-o" aria-hidden="true"></i>
+										Konstribusi Perusahaan</h2>
+		                            <p class="pl-30">Perusahaan-perusahaan dermawan dan karyawan mendukung proyek-proyek kami, dan membantu komunitas lokal berkembang. </p>		                            
 		                        </div>		                        
 							</div>
 							
 		                    <div class="col-md-6">		                        
 		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Organize Entertainment</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
+									<h2 class="service-title">
+										<i class="fa fa-commenting-o" aria-hidden="true"></i>
+										Live Chat 24/7</h2>
+		                            <p class="pl-30">Agen Agen kami yang terbaik akan menjawab pertanyaan Anda, siang atau malam.</p>
 		                        </div>		                        
-							</div>
-							
-		                    <div class="col-md-6">		                        
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Food & Water Supply</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>		                        
-							</div>
-							
-		                    <div class="col-md-6">		                        
-		                        <div class="single-service mb-30">
-		                            <h2 class="service-title">Protect Environment</h2>
-		                            <p>Pursue pleasure rationally counter consequences that are extremely painful. Nor again is here</p>
-		                        </div>		                        
-		                    </div>
+							</div>	
 		                </div>
 		            </div>
 		        </div>
 			</div>
 			
 		    <div class="service-image">
-		        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102402/img/service/1.png" alt="">
+		        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102402/img/service/1.png" alt="">
 			</div>			
 		</div>
 		<!-- area servis -->
@@ -113,7 +107,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/1.jpg" alt="">
+		                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/1.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -123,7 +117,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/2.jpg" alt="">
+		                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/2.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Pure Drinking Water for helpless people</h3>
@@ -133,7 +127,7 @@
 		                   
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/3.jpg" alt="">
+		                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/3.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -143,7 +137,7 @@
 		                    
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/4.jpg" alt="">
+		                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/4.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Pure Drinking Water for helpless people</h3>
@@ -153,7 +147,7 @@
 		                   
 		                    <div class="single-event">
 		                        <div class="event-img img-full">
-		                            <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/5.jpg" alt="">
+		                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/5.jpg" alt="">
 		                        </div>
 		                        <div class="event-content">
 		                            <h3>Medical Camp for Poor Children</h3>
@@ -178,7 +172,7 @@
 								Meminimalisir orang orang yang merasa sakit dan kurang.</p>
                             <p>Kami percaya akan hadir peradaban dunia yang lebih baik. Semua masalah kemanusiaan
 								dapat diselesaikan dengan membangun kedermawanan dan kerelawanan global.</p>
-                            <a class="default-btn" href="<?php echo base_url('eventsAll'); ?>">SELEBIHNYA</a>
+                            <a class="default-btn" href="<?php echo base_url('events'); ?>">SELEBIHNYA</a>
 						</div>
 						
 		            </div>
@@ -252,7 +246,7 @@
                                     <p>CEO Galang Dana</p>
                                 </div>
                                 <div class="author-img">
-									<img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/1.jpg" alt="">                                    
+									<img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/1.jpg" alt="">                                    
                                 </div>
                             </div>
                         </div>                        
@@ -270,7 +264,7 @@
                                     <p>CEO Indo Volunteer</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/2.jpg" alt="">
+                                    <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -288,7 +282,7 @@
                                     <p>CEO Simpan Berikan</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/3.jpg" alt="">
+                                    <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/3.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -307,7 +301,7 @@
                                     <p>CEO Donasi Kita</p>
                                 </div>
                                 <div class="author-img">
-                                    <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/4.jpg" alt="">
+                                    <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/4.jpg" alt="">
                                 </div>
                             </div>
                         </div>                        
@@ -325,31 +319,31 @@
 					
 					<div class="col-12">						
 						<div class="single-project img-full">						
-							<a href="https://www.cimbclicks.co.id/ib-cimbniaga/Login.html"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/1.png" alt=""></a>
+							<a href="https://www.cimbclicks.co.id/ib-cimbniaga/Login.html"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/1.png" alt=""></a>
 						</div>					
 					</div>
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://www.go-jek.com/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/2.png" alt=""></a>
+							<a href="https://www.go-jek.com/"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/2.png" alt=""></a>
 						</div>						
 					</div>
 
 					<div class="col-12">					
 							<div class="single-project img-full">
-								<a href="http://www.amikom.ac.id/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/3.png" alt=""></a>
+								<a href="http://www.amikom.ac.id/"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/3.png" alt=""></a>
 							</div>						
 						</div>					
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://ib.bri.co.id/ib-bri/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/4.png" alt=""></a>
+							<a href="https://ib.bri.co.id/ib-bri/"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/4.png" alt=""></a>
 						</div>						
 					</div>
 
 					<div class="col-12">					
 						<div class="single-project img-full">
-							<a href="https://www.grab.com/id/"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/5.png" alt=""></a>
+							<a href="https://www.grab.com/id/"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102471/img/sponsor/5.png" alt=""></a>
 						</div>						
 					</div>					
 

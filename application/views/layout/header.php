@@ -18,7 +18,7 @@
 						<!--logo header-->
                         <div class="col-lg-3 col-md-6">
                             <div class="header-logo">
-                                <a href="<?php echo base_url('/');?>"><img src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt=""></a>
+                                <a href="<?php echo base_url('/');?>"><img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
 						<!--logo header-->
