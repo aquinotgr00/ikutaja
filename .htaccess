@@ -23,3 +23,5 @@ RewriteRule ^(.*)$ - [PT,L]
 # Rewrite to index.php/URL
 RewriteRule ^(.*)$ index.php/$1 [PT,L]
 </IfModule>
+
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
