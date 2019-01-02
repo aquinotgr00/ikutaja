@@ -37,7 +37,7 @@
                                             <ul>                                                
                                                 <li><a href="<?php echo base_url('jadiPelaksana');?>">Jadi Pelaksana</a></li>
                                                 <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
-                                                <li><a href="<?php echo base_url('events1');?>">Events</a></li>                                                                                               
+                                                <li><a href="<?php echo base_url('events');?>">Events</a></li>                                                                                               
                                                 <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
                                                 <li><a href="<?php echo base_url('blog');?>">Blog</a></li>                                                                                                
                                             </ul>                                            
