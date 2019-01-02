@@ -24,7 +24,7 @@
                         <!--Volunteer About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101376/img/about/1.png" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101376/img/about/1.png" alt="">
 		                    </div>
 		                </div>
 		                <!--Volunteer About Image Area End-->

@@ -43,7 +43,7 @@
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">
 		                        <h2>Ikutaja</h2>
-		                        <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546101376/img/about/1.png" alt="">
+		                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101376/img/about/1.png" alt="">
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->

@@ -45,7 +45,7 @@
 		                <!--About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">		                        
-                                <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546159762/img/join/1.png" alt="">                                
+                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546159762/img/join/1.png" alt="">                                
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->
@@ -54,7 +54,7 @@
 		                <!--About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">		                        
-                                <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546159762/img/join/2.png" alt="">                                
+                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546159762/img/join/2.png" alt="">                                
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->
@@ -63,7 +63,7 @@
 		                <!--About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">		                        
-                                <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546159760/img/join/3.png" alt="">                                
+                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546159760/img/join/3.png" alt="">                                
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->
@@ -72,7 +72,7 @@
 		                <!--About Image Area Start-->
 		                <div class="about-img-area img-full">
 		                    <div class="img-title">		                        
-                                <img src="https://res.cloudinary.com/ikutaja/image/upload/v1546159759/img/join/0.png" alt="">                                
+                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546159759/img/join/0.png" alt="">                                
 		                    </div>
 		                </div>
 		                <!--About Image Area End-->
@@ -93,7 +93,7 @@
                             <h2>Tentang Ikutaja</h2>
                             <p class="pb-50">
                                 Interested applicants meeting the above qualifications should send their resume
-                                to <a class="text-danger font-italic" href="mailto:karir@ikutaja.id">
+                                to <a class="text-orange font-italic" href="mailto:karir@ikutaja.id">
                                 karir@ikutaja.id</a> and write [position] - [name] - [email address] -
                                 [phone number] in the subject.
                                 <i style="style=&quot;color: #DF202E;" class="fa fa-smile-o"></i>
