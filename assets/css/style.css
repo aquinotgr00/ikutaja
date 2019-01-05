@@ -5,3 +5,31 @@
   top: 10px;
   display: none;
 }
+
+.vol-user-card {
+  background-color: #363636;
+}
+.vol-user-picture {
+  width: 40%;
+}
+.vol-user-card .card-footer {
+  border-color: #555d68 !important;
+}
+.vol-user-card .card-footer ul li:first-child {
+  border-right: 1px solid #555d68;
+}
+
+.googlemap {
+  position: relative;
+  padding-bottom: 75%; /* 4:3 ratio*/
+  height: 0;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
