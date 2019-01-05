@@ -46,7 +46,7 @@ $(document).ready(function (){
         formDataObj[data.name] = data.value
       })
     
-    postLoginCred('http://ikutaja.loc/api/auth/login', formDataObj)
+    postLoginCred(`${window.location.origin}/api/auth/login`, formDataObj)
   })
 
 }) // end of $(document).ready()
