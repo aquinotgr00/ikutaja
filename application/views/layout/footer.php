@@ -67,7 +67,7 @@
         </div>
 
         <?php isset($authMiddleware) ? $this->load->view('scripts/scriptAuthMiddleware') : null ?>
-
+        <?php isset($xscript) ? $this->load->view($xscript) : null ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
