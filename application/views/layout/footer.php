@@ -67,13 +67,13 @@
         </div>
 
         <?php isset($authMiddleware) ? $this->load->view('scripts/scriptAuthMiddleware') : null ?>
-        <?php isset($xscript) ? $this->load->view($xscript) : null ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085007/js/plugins.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546084692/js/ajax.mail.js"></script>
         <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
+        <?php isset($xscript) ? $this->load->view($xscript) : null ?>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/style.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>
         
