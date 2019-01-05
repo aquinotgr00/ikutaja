@@ -1,1 +1,0 @@
-Ikutaja.id 
