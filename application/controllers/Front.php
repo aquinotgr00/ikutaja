@@ -23,14 +23,14 @@ class Front extends CI_Controller {
 	}	
 
 	/* Start Halaman Team */
-	public function team() {
+	public function teams() {
 		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeam');
+					'page' => 'pages/public/pageTeams');
 		$this->load->view('layout/wrapper', $data);
 	}
-	public function teamDetail1() {
+	public function teamDetail() {
 		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeamDetail/public/pageTeamDetail1');
+					'page' => 'pages/public/pageTeamDetail');
 		$this->load->view('layout/wrapper', $data);
 	}
 	/* End Halaman Team */		
@@ -43,14 +43,12 @@ class Front extends CI_Controller {
 
 	public function kontak() {
 		$data=array('title' => 'Ikutaja - Kontak',
-					'page' => 'pages/public/pageKontak',
-					'xscript' => 'scripts/scriptHome');
+					'page' => 'pages/public/pageKontak');					
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function policy() {
 		$data=array('title' => 'Ikutaja - Privasi Policy',
-					'page' => 'pages/public/pagePolicy',
-					'xscript' => 'scripts/scriptHome');
+					'page' => 'pages/public/pagePolicy');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function karir() {
@@ -76,20 +74,18 @@ class Front extends CI_Controller {
 	}	
 
 	// Event
-	public function events1() {
+	public function events() {
 			$data=array('title' => 'Ikutaja - Semua Event',
-						'page' => 'pages/public/pageEvents1');
+						'page' => 'pages/public/pageEvents');
 			$this->load->view('layout/wrapper', $data);
-	}
-	// Event
-    
-	// Semua Event1
-	public function eventsDetail1() {
+	}	    
+	
+	public function eventDetail() {
 		$data=array('title' => 'Ikutaja - Detail Event',
-					'page' => 'pages/public/pageEventsDetail1');
+					'page' => 'pages/public/pageEventDetail');
 		$this->load->view('layout/wrapper', $data);
 	}	
-    // Semua Event1
+    // Event
 
 	public function galeri() {
 		$data=array('title' => 'Ikutaja - Galeri',
