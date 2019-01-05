@@ -5,7 +5,7 @@ class Volunteer extends CI_Controller {
 
 	public function dashboard() {
 		$data=array('title' => 'Ikutaja - Dashboard Volunteer',
-          'page' => 'pages/volunteer/pageDashboard',
+          'page' => 'pages/relawan/pageDashboard',
           'authMiddleware' => true,
 					'xscript' => 'scripts/scriptVolunteerDashboard');
 		$this->load->view('layout/wrapper', $data);
