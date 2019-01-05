@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
                                     <div class="volunteer-form-style mb-20">
-                                        <select class="wide nice-select">
+                                        <select class="wide ">
                                             <option value="">--</option>
                                             <option value="New York">New York</option>
                                             <option value="Chicago">Chicago</option>
@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-12">
                                     <div class="volunteer-form-style mb-20">
-                                        <select class="wide nice-select">
+                                        <select class="wide ">
                                             <option value="">--</option>
                                             <option value="New York">New York</option>
                                             <option value="Chicago">Chicago</option>

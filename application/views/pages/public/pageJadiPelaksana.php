@@ -44,7 +44,7 @@
                     <div class="volunteer-form">
 
                         <div class="volunteer-form-title">
-                            <h3>Akun Relawan</h3>
+                            <h3>Akun Pelaksana</h3>
                         </div>
                         <form action="#">
                             <div class="row pb-30">
@@ -84,7 +84,7 @@
 
                                 <div class="col-3 pb-20">                            
                                     <div class="volunteer-form-style mb-20">                                        
-                                        <select class="wide nice-select">                                            
+                                        <select class="wide">                                            
                                             <option value="">- Tanggal -</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -123,7 +123,7 @@
                                 
                                 <div class="col-3 pb-20">                                                         
                                     <div class="volunteer-form-style mb-20">                                        
-                                        <select class="wide nice-select">                                            
+                                        <select class="wide">                                            
                                             <option value="">- Bulan -</option>
                                             <option value="January">January</option>
                                             <option value="February">February</option>
@@ -143,7 +143,7 @@
 
                                 <div class="col-3 pb-20">                           
                                     <div class="volunteer-form-style mb-20">                                        
-                                        <select class="wide nice-select">                                            
+                                        <select class="wide">                                            
                                             <option value="">- Tahun -</option>
                                             <option value="2014">2014</option>
                                             <option value="2013">2013</option>
@@ -266,7 +266,7 @@
 
                                 <div class="col-3 pb-20">
                                     <div class="volunteer-form-style mb-20">
-                                        <select class="wide nice-select">
+                                        <select class="wide">
                                             <option value="">- Jenis Kelamin -</option>
                                             <option value="L">Laki - Laki</option>
                                             <option value="P">Perempuan</option>                                            
@@ -284,42 +284,78 @@
                                     <div class="volunteer-form-style mb-20">
                                         <input name="nama institut" placeholder="Nama Institut" type="text">
                                     </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-12">
+                                </div>                                                                                                
+                            </div>
+                        </form>
+
+                        <div class="volunteer-form-title">
+                            <h3>Domisili</h3>
+                        </div>
+                        <form action="#">
+                            <div class="row pb-30">
+                                <div class="col-lg-6 col-md-6 col-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <select class="wide nice-select">
-                                            <option value="">--</option>
-                                            <option value="New York">New York</option>
-                                            <option value="Chicago">Chicago</option>
-                                            <option value="BangKok">BangKok</option>
-                                            <option value="Bangladesh">Bangladesh</option>
+                                        <select class="wide">
+                                            <option value="">- Provinsi -</option>
+                                            <option value="Semarang">Semarang</option>
+                                            <option value="Yogyakarta">Yogyakarta</option>
+                                            <option value="Salatiga">Salatiga</option>
+                                            <option value="Surabaya">Surabaya</option>
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-12">
+
+                                <div class="col-lg-6 col-md-6 col-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <select class="wide nice-select">
-                                            <option value="">--</option>
-                                            <option value="New York">New York</option>
-                                            <option value="Chicago">Chicago</option>
-                                            <option value="BangKok">BangKok</option>
-                                            <option value="Bangladesh">Bangladesh</option>
+                                        <select class="wide">
+                                            <option value="">- Kabupaten -</option>
+                                            <option value="Klaten">Klaten</option>
+                                            <option value="Sragen">Sragen</option>
+                                            <option value="Sleman">Sleman</option>
+                                            <option value="Boyolali">Boyolali</option>
+                                        </select>
+                                    </div>
+                                </div>    
+                            </div>
+                        </form>                        
+
+                        <div class="volunteer-form-title">
+                            <h3>Ketertarikan</h3>
+                        </div>
+                        <form action="#">
+                            <div class="row pb-30">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <div class="volunteer-form-style mb-20">
+                                        <select class="wide">
+                                            <option value="">- Ketertarikan Utama -</option>
+                                            <option value="Music">Music</option>
+                                            <option value="Film">Film</option>
+                                            <option value="Band">Band</option>
+                                            <option value="Bola">Bola</option>
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-12">
+
+                                <div class="col-lg-6 col-md-6 col-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <input name="zip-code" placeholder="Zip Code" type="text">
+                                        <select class="wide">
+                                            <option value="">- Ketertarikan Sampingan -</option>
+                                            <option value="Music">Music</option>
+                                            <option value="Film">Film</option>
+                                            <option value="Band">Band</option>
+                                            <option value="Bola">Bola</option>
+                                        </select>
                                     </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="volunteer-form-style">
-                                        <textarea name="message" placeholder="Message"></textarea>
+                                </div>    
+
+                                <div class="col-lg-12 pt-30">
+                                    <div class="volunteer-form-style">                                        
                                         <button class="sent-btn" type="submit">SEND Now</button>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </form>    
+
                     </div>
                 </div>
             </div>
