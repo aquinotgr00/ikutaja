@@ -40,7 +40,7 @@
                 <div class="signup-title">
                     <h2>Daftar <span>Sekarang</span></h2>
                 </div>
-                <div class="page-content">
+                
                     <div class="volunteer-form">
 
                         <div class="volunteer-form-title">
@@ -82,7 +82,7 @@
                         <form action="#">
                             <div class="row pb-30">    
 
-                                <div class="col-3 pb-20">                            
+                                <div class="col-lg-3 col-md-6 col-sm-12 pb-20">                            
                                     <div class="volunteer-form-style mb-20">                                        
                                         <select class="wide">                                            
                                             <option value="">- Tanggal -</option>
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-3 pb-20">                                                         
+                                <div class="col-lg-3 col-md-6 col-sm-12 pb-20">                                                         
                                     <div class="volunteer-form-style mb-20">                                        
                                         <select class="wide">                                            
                                             <option value="">- Bulan -</option>
@@ -141,7 +141,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-3 pb-20">                           
+                                <div class="col-lg-3 col-md-6 col-sm-12 pb-20">                           
                                     <div class="volunteer-form-style mb-20">                                        
                                         <select class="wide">                                            
                                             <option value="">- Tahun -</option>
@@ -264,7 +264,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-3 pb-20">
+                                <div class="col-lg-3 col-md-6 col-sm-12 pb-20">
                                     <div class="volunteer-form-style mb-20">
                                         <select class="wide">
                                             <option value="">- Jenis Kelamin -</option>
@@ -293,7 +293,7 @@
                         </div>
                         <form action="#">
                             <div class="row pb-30">
-                                <div class="col-lg-6 col-md-6 col-6">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="volunteer-form-style mb-20">
                                         <select class="wide">
                                             <option value="">- Provinsi -</option>
@@ -305,7 +305,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-6">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="volunteer-form-style mb-20">
                                         <select class="wide">
                                             <option value="">- Kabupaten -</option>
@@ -324,7 +324,7 @@
                         </div>
                         <form action="#">
                             <div class="row pb-30">
-                                <div class="col-lg-6 col-md-6 col-6">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="volunteer-form-style mb-20">
                                         <select class="wide">
                                             <option value="">- Ketertarikan Utama -</option>
@@ -336,7 +336,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-6">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="volunteer-form-style mb-20">
                                         <select class="wide">
                                             <option value="">- Ketertarikan Sampingan -</option>
@@ -357,7 +357,7 @@
                         </form>    
 
                     </div>
-                </div>
+                
             </div>
         </div>
     </div>
