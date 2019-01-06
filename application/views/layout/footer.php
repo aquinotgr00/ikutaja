@@ -77,7 +77,7 @@
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/style.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>
         
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             window.__lc = window.__lc || {};
             window.__lc.license = 10466777;
             (function() {
@@ -92,7 +92,7 @@
 
         <noscript>
             <a href="https://www.livechatinc.com/chat-with/10466777/">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
-        </noscript>
+        </noscript> -->
         
     </body>
 
