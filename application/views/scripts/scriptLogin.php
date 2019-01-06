@@ -1,8 +1,9 @@
 <script>
-$(document).ready(function (){
+if(checkIfLoggedIn()) {
+  redirectUser()
+}
 
-  // init function from AuthMiddleware script
-  init('/volunteer/dashboard', false)
+$(document).ready(function (){
 
   const showNotifBox = ({ success, message }) => {
     const notifBox = document.querySelector('#msg-notif')
@@ -32,7 +33,8 @@ $(document).ready(function (){
         showNotifBox(response)
       }
       localStorage.setItem('Authorization', `Bearer ${response.result.token}`)
-      window.location = '/volunteer/dashboard'
+      // window.location = response.result.redirect == 1 ? '/volunteer/dashboard' : '/organizations/dashboard'
+      redirectUser()
     })
   }
 

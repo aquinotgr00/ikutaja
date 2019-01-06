@@ -12,6 +12,15 @@ class Auth extends REST_Controller
     $this->load->model('User_model');
   }
 
+  public function redirectUser_get()
+  {
+    $headers = $this->input->request_headers();
+    $cek = Authorization::tokenIsExist($headers);
+    $user = Authorization::validateToken($headers['Authorization']);
+    $type = $this->User_model->get($user->id)->type;
+    $this->set_response($type);
+  }
+
   public function login_post()
   {
     // Get all the post data from json.
@@ -29,7 +38,10 @@ class Auth extends REST_Controller
       $response = [
         'message' => 'Berhasil masuk.',
         'success' => 1,
-        'result' => ['token' => Authorization::generateToken($tokenData)]
+        'result' => [
+          'token' => Authorization::generateToken($tokenData),
+          'redirect' => $user->type,
+        ]
       ];
       // give back the token and set response to http 200.
       $this->set_response($response);
