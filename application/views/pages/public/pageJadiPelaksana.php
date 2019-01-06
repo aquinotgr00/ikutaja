@@ -76,7 +76,7 @@
                                         <input type="password" placeholder="Ulangi Sandi" class="form-create">
                                     </div>
                                     
-                                    <button type="button" class="btn btn-next">Lanjut</button>
+                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
                                 </div>
                             </fieldset>
                             <fieldset>
@@ -122,8 +122,8 @@
                                     <div class="form-group">                                                                                
                                         <textarea placeholder="Deskripsi Organisasi" class="form-create"></textarea>
                                     </div>                                       
-                                    <button type="button" class="btn btn-previous">Balik</button>
-                                    <button type="button" class="btn btn-next">Lanjut</button>
+                                    <button type="button" class="sent-btn btn-previous">Balik</button>
+                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
                                 </div>
                             </fieldset>
                             <fieldset>
@@ -167,8 +167,8 @@
                                     <div class="form-group">                                        
                                         <input type="text" placeholder="Website" class="form-create">
                                     </div>                                    
-                                    <button type="button" class="btn btn-previous">Balik</button>
-                                    <button type="button" class="btn btn-next">Lanjut</button>
+                                    <button type="button" class="sent-btn btn-previous">Balik</button>
+                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
                                 </div>
                             </fieldset>
                             <fieldset>
@@ -189,8 +189,8 @@
                                         </p>
                                     </div>
                                                                
-                                    <button type="button" class="btn btn-previous">Balik</button>
-                                    <button type="submit" class="btn">Daftarkan</button>
+                                    <button type="button" class="sent-btn btn-previous">Balik</button>                                    
+                                    <button type="submit" class="sent-btn">Daftarkan</button>
                                 </div>
                             </fieldset>
                         </form>
