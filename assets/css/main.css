@@ -294,9 +294,9 @@ input {
 
 select {
     width: 100%;
-    background: #eceff8;
-    border: 2px solid #eceff8;
-    height: 45px;
+    background: #f7f7f7;
+    border: none;
+    height: 40px;
     padding-left: 10px;
     box-shadow: none;
     font-size: 14px;
@@ -4998,7 +4998,7 @@ thead {
     color: #151515;
     font-size: 14px;
     font-weight: 400;
-    height: 190px;
+    height: 250px;
     padding: 20px 15px;
     margin-bottom: 30px
 }
