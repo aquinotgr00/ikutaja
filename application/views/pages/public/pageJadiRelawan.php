@@ -66,12 +66,12 @@
                                 </div>                                
                                 <div class="col-lg-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <input name="country" placeholder="Kata Sandi" type="password">
+                                        <input name="password" placeholder="Kata Sandi" type="password" maxlength=>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <input name="country" placeholder="Ulangi Sandi" type="password">
+                                        <input name="password" placeholder="Ulangi Sandi" type="password">
                                     </div>
                                 </div>
                             </div>
