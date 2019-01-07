@@ -28,9 +28,24 @@ class Front extends CI_Controller {
 					'page' => 'pages/public/pageTeams');
 		$this->load->view('layout/wrapper', $data);
 	}
-	public function teamDetail() {
-		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeamDetail');
+	public function aquino() {
+		$data=array('title' => 'Ikutaja - Aquino',
+					'page' => 'pages/public/pageTeamDetail/pageAquino');
+		$this->load->view('layout/wrapper', $data);
+	}
+	public function deyan() {
+		$data=array('title' => 'Ikutaja - Deyan',
+					'page' => 'pages/public/pageTeamDetail/pageDeyan');
+		$this->load->view('layout/wrapper', $data);
+	}
+	public function hilmi() {
+		$data=array('title' => 'Ikutaja - Hilmi',
+					'page' => 'pages/public/pageTeamDetail/pageHilmi');
+		$this->load->view('layout/wrapper', $data);
+	}
+	public function rizal() {
+		$data=array('title' => 'Ikutaja - Rizal',
+					'page' => 'pages/public/pageTeamDetail/pageRizal');
 		$this->load->view('layout/wrapper', $data);
 	}
 	/* End Halaman Team */		
