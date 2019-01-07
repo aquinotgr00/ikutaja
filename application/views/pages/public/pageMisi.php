@@ -5,7 +5,7 @@
                 <div class="breadcrumb-content text-center">
                     <h1 class="breadmome-name">Misi</h1>
                     <ul>
-                        <li><a href="<?php echo base_url('about/tentang'); ?>">Tentang</a></li>
+                        <li><a href="<?php echo base_url('tentang'); ?>">Tentang</a></li>
                         <li class="active">Misi</li>
                     </ul>
                 </div>
