@@ -50,10 +50,10 @@ class User_model extends CI_Model {
     return false;
   }
 
-  public function login($username, $password)
+  public function login($email, $password)
   {
     $condition = [
-      'username' => $username,
+      'email' => $email,
       'password' => $password,
     ];
 
