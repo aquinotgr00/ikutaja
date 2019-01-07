@@ -46,6 +46,7 @@
                         <div class="volunteer-form-title">
                             <h3>Akun Relawan</h3>
                         </div>
+
                         <form action="#">
                             <div class="row pb-30">
                                 <div class="col-lg-3 col-md-6">
@@ -79,7 +80,7 @@
                         <div class="volunteer-form-title">
                             <h3>Data Dirimu</h3>
                         </div>
-                        <form action="#">
+                        <form action="#" method="post">
                             <div class="row pb-30">    
 
                                 <div class="col-lg-3 col-md-6 col-sm-12 pb-20">                            
@@ -350,7 +351,7 @@
 
                                 <div class="col-lg-12 pt-30">
                                     <div class="volunteer-form-style">                                        
-                                        <button class="sent-btn" type="submit">SEND Now</button>
+                                        <button class="sent-btn" type="submit">Konfirmasi</button>
                                     </div>
                                 </div>
                             </div>
