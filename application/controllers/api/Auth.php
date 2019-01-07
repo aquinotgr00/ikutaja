@@ -27,11 +27,11 @@ class Auth extends REST_Controller
     $dataPost = $this->post();
 
     // Get the user.
-    $user = $this->User_model->login($dataPost['username'],$dataPost['password']);
+    $user = $this->User_model->login($dataPost['email'],$dataPost['password']);
     if($user) {
       // If user found then set the token.
       $tokenData['id'] = $user->id;
-      $tokenData['username'] = $user->username;
+      $tokenData['email'] = $user->email;
       $date = new DateTime();
       $tokenData['iat'] = $date->getTimestamp();
       $tokenData['exp'] = $date->getTimestamp() + 60*60*5;
