@@ -40,12 +40,15 @@
                 <div class="signup-title">
                     <h2>Daftar <span>Sekarang</span></h2>
                 </div>
+                
                 <div class="volunteer-form">
+
                     <div class="volunteer-form-title">
                         <h3>Akun Pelaksana</h3>
                     </div>
-                    <div>
-                        <form role="" action="" method="post" class="registration-form">
+
+                        <form action="#" class="registration-form">
+
                             <fieldset>
                                 <div class="form-top">
                                     <div class="form-top-left">
@@ -56,29 +59,45 @@
                                         <i class="fa fa-users"></i>
                                     </div>
                                 </div>
-                                <div class="form-bottom">
-                                    <div class="form-group pt-20">                                        
-                                        <input type="text" placeholder="Nama Depan" class="form-create" id="form-first-name">
+                                <div class="row pb-30 pt-20">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="text" placeholder="Nama Depan">
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Nama Belakang" class="form-create" id="form-last-name">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="text" placeholder="Nama Belakang"> 
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="email" placeholder="Alamat Email" class="form-create">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="email" placeholder="Alamat Email">
+                                        </div>
+                                    </div>                                
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="text" placeholder="Nomor Handphone">
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Nomor Handphone" class="form-create">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="password" placeholder="Kata Sandi" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                    
-                                        <input type="password" placeholder="Kata Sandi" class="form-create">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <input type="password" placeholder="Ulangi Sandi">
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="password" placeholder="Ulangi Sandi" class="form-create">
+                                    <div class="col-lg-12 pt-30">
+                                        <div class="volunteer-form-style">                                        
+                                            <button type="button" class="sent-btn btn-next">Lanjut</button>
+                                        </div>
                                     </div>
-                                    
-                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
                                 </div>
-                            </fieldset>
+                            </fieldset>                        
+                        
                             <fieldset>
                                 <div class="form-top">
                                     <div class="form-top-left">
@@ -89,43 +108,61 @@
                                         <i class="fa fa-building"></i>
                                     </div>
                                 </div>
-                                <div class="form-bottom">
-                                    <div class="avatar-upload">
-                                        <div class="avatar-edit">
-                                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                                            <label for="imageUpload"></label>
-                                        </div>
-                                        <div class="avatar-preview">
-                                            <div id="imagePreview" style="background-image: url(https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0001-BLUS31176_00-UAWATCHDOG000003//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100);">
+                                <div class="row pb-30 pt-20">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="avatar-upload">
+                                            <div class="avatar-edit">                                                
+                                                <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />    
+                                                <label for="imageUpload"></label>                                                                                            
                                             </div>
+                                            <div class="avatar-preview">
+                                                <div id="imagePreview" style="background-image: url(https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0001-BLUS31176_00-UAWATCHDOG000003//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100);">
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-lg-8 col-md-8">
+                                        <div class="volunteer-form-style mb-20 textarea">
+                                            <label for="deskripsiOrganisasi">Deskripsi Organisasi</label>
+                                            <textarea placeholder="Ikutaja membantu organisasi dalam mencari relawan."></textarea>
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-6">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="namaOrganisasi">Nama Organisasi</label>
+                                            <input type="text" placeholder="PT Angkasa Orbit Lima">
                                         </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Nama Organisasi" class="form-create">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="jenisOrganisasi">Jenis Organisasi</label>
+                                            <select class="wide">
+                                                <option value="">- Pilih Tipe Organisasi -</option>
+                                                <option value="komunitas">Komunitas</option>
+                                                <option value="koperasi">Koperasi</option>
+                                                <option value="lembaga-pemerintah">Lembaga Pemerintahan</option>
+                                                <option value="perkumpulan">Perkumpulan</option>
+                                                <option value="perusahaan">Perusahaan</option>
+                                                <option value="yayasan">Yayasan</option>
+                                                <option value="lain-lain">Lain-lain</option>
+                                            </select>
+                                        </div>
+                                    </div>                                
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="volunteer-form-style mb-20">                                            
+                                            <label for="tanggalBerdiri">Tanggal Berdiri</label>
+                                            <input type="date">
+                                        </div>
+                                    </div>                                                                       
+                                    <div class="col-lg-12 pt-30">
+                                        <div class="volunteer-form-style">                                        
+                                            <button type="button" class="sent-btn btn-previous">Balik</button>
+                                            <button type="button" class="sent-btn btn-next">Lanjut</button>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <select class="wide">
-                                            <option value="">- Tipe Organisasi -</option>
-                                            <option value="komunitas">Komunitas</option>
-                                            <option value="koperasi">Koperasi</option>
-                                            <option value="lembaga-pemerintah">Lembaga Pemerintahan</option>
-                                            <option value="perkumpulan">Perkumpulan</option>
-                                            <option value="perusahaan">Perusahaan</option>
-                                            <option value="yayasan">Yayasan</option>
-                                            <option value="lain-lain">Lain-lain</option>
-                                        </select>
-                                    </div>                                    
-                                    <div class="form-group">                                        
-                                        <p>Tanggal Berdiri</p>
-                                        <input type="date" class="form-create">
-                                    </div>                                    
-                                    <div class="form-group">                                                                                
-                                        <textarea placeholder="Deskripsi Organisasi" class="form-create"></textarea>
-                                    </div>                                       
-                                    <button type="button" class="sent-btn btn-previous">Balik</button>
-                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
-                                </div>
+                                </div>                                
                             </fieldset>
+
                             <fieldset>
                                 <div class="form-top">
                                     <div class="form-top-left">
@@ -136,41 +173,62 @@
                                         <i class="fa fa-globe"></i>
                                     </div>
                                 </div>
-                                <div class="form-bottom">
-                                    <div class="form-group pt-20">                                        
-                                        <input type="text" placeholder="Lokasi" class="form-create">
+                                <div class="row pb-30 pt-20">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="lokasi">Lokasi</label>
+                                            <input type="text" placeholder="Jalan Candi Gebang">
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <select class="wide">
-                                            <option value="">- Provinsi -</option>
-                                            <option value="Semarang">Semarang</option>
-                                            <option value="Yogyakarta">Yogyakarta</option>
-                                            <option value="Salatiga">Salatiga</option>
-                                            <option value="Surabaya">Surabaya</option>
-                                        </select>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20 pt-30">                                            
+                                            <select class="wide">
+                                                <option value="">- Provinsi -</option>
+                                                <option value="Semarang">Semarang</option>
+                                                <option value="Yogyakarta">Yogyakarta</option>
+                                                <option value="Salatiga">Salatiga</option>
+                                                <option value="Surabaya">Surabaya</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <select class="wide">
-                                            <option value="">- Kabupaten -</option>
-                                            <option value="Klaten">Klaten</option>
-                                            <option value="Sragen">Sragen</option>
-                                            <option value="Sleman">Sleman</option>
-                                            <option value="Boyolali">Boyolali</option>
-                                        </select>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20 pt-30">                                            
+                                            <select class="wide">
+                                                <option value="">- Kabupaten -</option>
+                                                <option value="Klaten">Klaten</option>
+                                                <option value="Sragen">Sragen</option>
+                                                <option value="Sleman">Sleman</option>
+                                                <option value="Boyolali">Boyolali</option>
+                                            </select>
+                                        </div>
+                                    </div>                                
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="kodePos">Kode Pos</label>
+                                            <input type="text" placeholder="53417">
+                                        </div>
                                     </div>
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Kode Pos" class="form-create">
-                                    </div>                                    
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Telepon Kantor" class="form-create">
-                                    </div>                                    
-                                    <div class="form-group">                                        
-                                        <input type="text" placeholder="Website" class="form-create">
-                                    </div>                                    
-                                    <button type="button" class="sent-btn btn-previous">Balik</button>
-                                    <button type="button" class="sent-btn btn-next">Lanjut</button>
-                                </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="teleponKantor">Telepon Kantor</label>
+                                            <input type="text" placeholder="+62 812 5567 0911">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <label for="website">Website</label>
+                                            <input type="text" placeholder="https://www.aol.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 pt-30">
+                                        <div class="volunteer-form-style">                                        
+                                            <button type="button" class="sent-btn btn-previous">Balik</button>
+                                            <button type="button" class="sent-btn btn-next">Lanjut</button>
+                                        </div>
+                                    </div>
+                                </div>                                
                             </fieldset>
+
                             <fieldset>
                                 <div class="form-top">
                                     <div class="form-top-left">
@@ -181,20 +239,25 @@
                                         <i class="fa fa-fire"></i>
                                     </div>
                                 </div>
-                                <div class="form-bottom">
-                                    <div class="form-group pt-20">                                        
-                                        <p>
-                                           Pastikan semua Informasi tentang organisasi sudah benar, klik selesai untuk
-                                           melanjutkan proses registrasi atau kembali untuk mengedit informasi.
-                                        </p>
+                                <div class="row pb-30 pt-20">
+                                    <div class="col-lg-12">
+                                        <div class="volunteer-form-style mb-20">
+                                            <p>
+                                            Pastikan semua Informasi tentang organisasi sudah benar, klik selesai untuk
+                                            melanjutkan proses registrasi atau kembali untuk mengedit informasi.
+                                            </p>
+                                        </div>
+                                    </div>                                   
+                                    <div class="col-lg-12 pt-30">
+                                        <div class="volunteer-form-style">                                        
+                                            <button type="button" class="sent-btn btn-previous">Balik</button>                                    
+                                            <button type="submit" class="sent-btn">Konfirmasi</button>
+                                        </div>
                                     </div>
-                                                               
-                                    <button type="button" class="sent-btn btn-previous">Balik</button>                                    
-                                    <button type="submit" class="sent-btn">Daftarkan</button>
-                                </div>
+                                </div>                                
                             </fieldset>
-                        </form>
-                    </div>
+
+                        </form>                    
                 </div>
             </div>
         </div>
