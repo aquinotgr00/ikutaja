@@ -34,14 +34,7 @@ width: 100% !important;
 height: 100% !important;
 }
 
-
-
-
-
-
-
-
-/* mm */
+/* form signup */
 .form-top {
 overflow: hidden;
 padding: 0 25px 15px 25px;
@@ -67,7 +60,6 @@ line-height: 100px;
 text-align: right;
 }
 
-
 .volunteer-form-style>textarea .text-area {
 height: 300px;
 }
@@ -76,7 +68,7 @@ form.registration-form fieldset {
 display: none;
 }
 
-/* upload gambar */
+/* form signup - upload gambar */
 .avatar-upload {
   position: relative;
   max-width: 205px;
@@ -134,4 +126,9 @@ display: none;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* disable map watermark */
+.leaflet-control-attribution, .leaflet-control {
+  display: none;
 }
