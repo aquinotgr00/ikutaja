@@ -42,26 +42,10 @@ height: 100% !important;
 
 
 /* mm */
-.form-create {
-  display: block;
-  width: 100%;
-  height: calc(2.25rem + 2px);
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.form-create:hover {
-  border: 1px solid #ced4da;
-}
-
 .form-top {
 overflow: hidden;
 padding: 0 25px 15px 25px;
 background: #f7f7f7;
-
 text-align: left;
 }
 
@@ -83,64 +67,16 @@ line-height: 100px;
 text-align: right;
 }
 
-.form-bottom {
-background: white;
-text-align: left;
-}
 
-form .form-bottom textarea {
-height: 100px;
+.volunteer-form-style>textarea .text-area {
+height: 300px;
 }
-
-form .form-bottom button.btn {
-min-width: 105px;
-}
-
 
 form.registration-form fieldset {
 display: none;
 }
 
-/***** Media queries *****/
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-@media (min-width: 768px) and (max-width: 991px) {}
-
-@media (max-width: 767px) {
-
-
-.top-content .top-big-link { margin-top: 25px; }
-.top-content .top-big-link a.btn { margin-top: 10px; }
-
-.form-bottom { padding-bottom: 25px; }
-form .form-bottom button.btn { margin-bottom: 5px; }
-
-}
-
-@media (max-width: 415px) {
-
-h1, h2 { font-size: 32px; }
-
-}
-
-
-/* Retina-ize images/icons */
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-
-
-}
-
-
-/* mm */
-
+/* upload gambar */
 .avatar-upload {
   position: relative;
   max-width: 205px;
@@ -177,7 +113,7 @@ only screen and (                min-resolution: 2dppx) {
   font-family: 'FontAwesome';
   color: #757575;
   position: absolute;
-  top: 10px;
+  top: 6px;
   left: 0;
   right: 0;
   text-align: center;
