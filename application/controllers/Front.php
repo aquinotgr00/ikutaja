@@ -25,27 +25,27 @@ class Front extends CI_Controller {
 	/* Start Halaman Team */
 	public function teams() {
 		$data=array('title' => 'Ikutaja - Team',
-					'page' => 'pages/public/pageTeams');
+					'page' => 'pages/public/pageTeams/pageTeams');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function aquino() {
 		$data=array('title' => 'Ikutaja - Aquino',
-					'page' => 'pages/public/pageTeamDetail/pageAquino');
+					'page' => 'pages/public/pageTeams/pageAquino');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function deyan() {
 		$data=array('title' => 'Ikutaja - Deyan',
-					'page' => 'pages/public/pageTeamDetail/pageDeyan');
+					'page' => 'pages/public/pageTeams/pageDeyan');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function hilmi() {
 		$data=array('title' => 'Ikutaja - Hilmi',
-					'page' => 'pages/public/pageTeamDetail/pageHilmi');
+					'page' => 'pages/public/pageTeams/pageHilmi');
 		$this->load->view('layout/wrapper', $data);
 	}
 	public function rizal() {
 		$data=array('title' => 'Ikutaja - Rizal',
-					'page' => 'pages/public/pageTeamDetail/pageRizal');
+					'page' => 'pages/public/pageTeams/pageRizal');
 		$this->load->view('layout/wrapper', $data);
 	}
 	/* End Halaman Team */		
