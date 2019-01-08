@@ -6,6 +6,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['(:any)'] = 'Front/$1';
+$route['(:any)'] = 'admin/login/$1';
 
 /*
 | -------------------------------------------------------------------------
