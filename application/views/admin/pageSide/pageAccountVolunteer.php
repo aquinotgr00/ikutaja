@@ -25,11 +25,7 @@
 
         <div class="content">
             <div class="animated">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="mr-2 fa fa-pencil-square-o"></i>
-                        <strong class="card-title" v-if="headerText">Volunteer</strong>
-                    </div>
+                <div class="card">                    
                             <div class="table-stats order-table ov-h">
                                 <table class="table ">
                                     <thead>
