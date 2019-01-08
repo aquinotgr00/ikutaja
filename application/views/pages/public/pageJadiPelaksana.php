@@ -19,15 +19,18 @@
             <div class="col-md-12 col-lg-6">
                 <div class="about-img-area img-full">
                     <div class="img-title">
-                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546492403/img/about/jadi.png" alt="">
+                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546883138/img/jadi/organisasi.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="volunteer-about-content">
                     <h2>Jadi Pelaksana</h2>
-                    <h3>Join The Winning Team</h3>
-                    <p>Mari terlibat langsung dalam kegiatan seperti Berbagi Inspirasi, Music, Film, dan berbagai aktivitas lain yang bisa jadi Anda yang menginisiasinya.</p>
+                    <h3>Hai #OrangBaik!</h3>
+                    <p>
+                       Mari terlibat langsung dalam kegiatan seperti berbagi Inspirasi, Music, Film, dan berbagai
+                       aktivitas lain yang bisa jadi Anda yang menginisiasinya.
+                    </p>                    
                 </div>
             </div>
         </div>
