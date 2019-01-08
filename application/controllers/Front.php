@@ -85,7 +85,8 @@ class Front extends CI_Controller {
 	}	   
 	public function jadiRelawan() {
 			$data=array('title' => 'Ikutaja - Jadi Relawan',
-						'page' => 'pages/public/pageJadiRelawan');
+						'page' => 'pages/public/pageJadiRelawan',
+						'xscript' => 'scripts/scriptJadiRelawan');
 			$this->load->view('layout/wrapper', $data);
 	}	
 
