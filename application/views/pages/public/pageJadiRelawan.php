@@ -19,15 +19,15 @@
             <div class="col-md-12 col-lg-6">
                 <div class="about-img-area img-full">
                     <div class="img-title">
-                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546492403/img/about/jadi.png" alt="">
+                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546883141/img/jadi/relawan.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="volunteer-about-content">
                     <h2>Jadi Relawan</h2>
-                    <h3>Join The Winning Team</h3>
-                    <p>Mari terlibat langsung dalam kegiatan seperti Berbagi Inspirasi, Music, Film, dan berbagai aktivitas lain yang bisa jadi Anda yang menginisiasinya.</p>
+                    <h3>Halo Sahabat #HappyPeople!</h3>                   
+                    <p>Apabila kamu tertarik untuk menjadi volunteer / relawan di berbagai program Ikutaja silahkan isi informasi berikut. :) </p>
                 </div>
             </div>
         </div>
@@ -66,12 +66,12 @@
                                 </div>                                
                                 <div class="col-lg-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <input name="country" placeholder="Kata Sandi" type="password">
+                                        <input name="password" placeholder="Kata Sandi" type="password" maxlength=>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="volunteer-form-style mb-20">
-                                        <input name="country" placeholder="Ulangi Sandi" type="password">
+                                        <input name="password" placeholder="Ulangi Sandi" type="password">
                                     </div>
                                 </div>
                             </div>

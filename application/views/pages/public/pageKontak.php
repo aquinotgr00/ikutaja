@@ -19,7 +19,7 @@
             <div class="col-lg-8 col-md-12">
                 <div class="pt-60 contact-info-here">
                     <div class="contact-img img-full">
-                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546165134/img/map/thanks.jpg" alt="">
+                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546903970/img/map/thankyou.png" alt="">
                     </div>
                     <div class="contact-info">
                         <h2>Alamat Kantor</h2>
@@ -44,7 +44,7 @@
         <div class="row no-gutters">
             <div class="col-md-12 col-lg-8 gray-bg">
                 <div id="mapid"></div>
-            </div>
+            </div>            
             <div class="col-md-12 col-lg-4 green-bg">
                 <div class="contact-address">
                     <h3 class="ct-title">Kantor Pendukung</h3>
