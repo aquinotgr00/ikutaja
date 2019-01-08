@@ -9,6 +9,7 @@ class Volunteer extends REST_Controller
   {
     parent::__construct();
     $this->load->model('Volunteer_model');
+    $this->load->model('User_model');
   }
 
   public function index_get($id = null)
@@ -83,29 +84,38 @@ class Volunteer extends REST_Controller
     if (Authorization::tokenIsExist($headers)) {
       $token = Authorization::validateToken($headers['Authorization']);
       if ($token != false) {
-        $dataPost = $this->input->post();
-        $id = $this->Volunteer_model->create($dataPost, $token);
-        if ($id != false) {
-          $volunteer = $this->Volunteer_model->get($id);
-          if ($volunteer) {
-            $response = [
-              'message' => 'Berhasil menambahkan volunteer.',
-              'success' => 1,
-              'http_status' => 200,
-              'result' => $volunteer
-            ];
+        foreach ($this->post() as $key => $value) {                           // get the post data
+          if (strpos($key, 'user') !== FALSE) {                               // separate between user data
+            $dataPostUser[substr($key, 5)] = $value;
+          } else if (strpos($key, 'volunteer') !== FALSE) {                   // and volunteer data
+            $dataPostVol[substr($key, 10)] = $value;
           } else {
-            $response = [
-              'message' => 'Gagal menambahkan volunteer.',
-              'success' => 0,
-            ];
+            $dataPostField[$key] = $value;
           }
-          $this->set_response($response, 404);
-          return;
         }
+        $userId = $this->User_model->create($dataPostUser, $token);           // create user and save the id
+        $dataPostVol['user_id'] = $userId;                                    // add user id to volunteer data
+        $id = $this->Volunteer_model->create($dataPostVol, $token);
+        $dataPostField['volunteer_id'] = $id;
+        $response = $this->Volunteer_model->addVolunteerField($dataPostField);
+        if ($id != false) {
+          $response = [
+            'message' => 'Berhasil menambahkan volunteer.',
+            'success' => 1,
+            'http_status' => 200,
+            'result' => $this->Volunteer_model->get($id)
+          ];
+        } else {
+          $response = [
+            'message' => 'Gagal menambahkan volunteer.',
+            'success' => 0,
+          ];
+        }
+        $this->set_response($response, 404);
+        return;
       }
       $response = [
-        'message' => 'Gagal! Terjadi masalah.',
+        'message' => 'Gagal! Terjadi masalah. Token is expired',
         'status' =>  0,
       ];
       $this->set_response($response, 503);

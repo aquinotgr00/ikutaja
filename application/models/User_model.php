@@ -15,11 +15,21 @@ class User_model extends CI_Model {
   public function get($id)
   {
     $user = $this->db
-      ->select('username, email, type, phone')
+      ->select('id, username, email, type, phone')
       ->get_where('users', ['id' => $id])
       ->row();
     if ($user) {
-      return $user;
+      $data = [
+        'user' => $user
+      ];
+      if($user->type = 2) {
+        $user_org = $this->db
+          ->select('*')
+          ->get_where('organizations', ['user_id' => $user->id])
+          ->row();
+        $data['organization'] = $user_org;
+      }
+      return $data;
     } 
     return false;
   }
@@ -52,17 +62,15 @@ class User_model extends CI_Model {
 
   public function login($email, $password)
   {
-    $condition = [
-      'email' => $email,
-      'password' => $password,
-    ];
-
+    // fetch by email first
     $user = $this->db
-      ->get_where('users', $condition)
+      ->get_where('users', [ 'email' => $email ])
       ->row();
-    if ($user != null) {
+
+    if (!empty($user) && password_verify($password, $user->password)) {
+      // if this email exists, and the input password is verified using password_verify
       return $user;
-    }
+    } 
     return false;
   }
 }
