@@ -254,7 +254,7 @@
                                 <div class="col-lg-12 pt-30">
                                     <div class="volunteer-form-style">                                        
                                         <button type="button" class="sent-btn btn-previous">Balik</button>
-                                        <input type="submit" class="sent-btn" value="Konfirmasi">
+                                        <button type="submit" class="sent-btn" value="Konfirmasi">Konfirmasi</button>
                                     </div>
                                 </div>
                             </div>                                

@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
         })
             .then(response => response.json())
             .catch(error => console.error('Error:', error))
-            .then(res => window.location = `${window.location.origin}/auth/login?success=registrasi-org`)
+            .then(res => window.location = `${window.location.origin}/auth/login?success=sukses-registrasi`)
     }
 
     // submit
