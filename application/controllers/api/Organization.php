@@ -95,46 +95,31 @@ class Organization extends REST_Controller
   {
     $headers = $this->input->request_headers();
 
-    if (Authorization::tokenIsExist($headers)) {                              // Check if Auth exist in headers
-      $token = Authorization::validateToken($headers['Authorization']);       // validatetoken
-      if ($token != false) {                                                  // check if token are not expired
-        foreach ($this->post() as $key => $value) {                           // get the post data
-          if (strpos($key, 'user') !== FALSE) {                               // separate between user data
-            $dataPostUser[substr($key, 5)] = $value;
-          } else {                                                            // and organization data
-            $dataPostOrg[substr($key, 4)] = $value;
-          }
-        }
-        $userId = $this->User_model->create($dataPostUser, $token);           // create user and save the id
-        $dataPostOrg['user_id'] = $userId;                                    // add user id to organization data
-        $id = $this->Organization_model->create($dataPostOrg, $token);        // create organization and get the organization id
-        if ($id != false) {                                                   // is it successfull?
-          $response = [
-            'message' => 'Berhasil menambahkan organization.',
-            'success' => 1,
-            'http_status' => 200,
-            'result' => $this->Organization_model->get($id)
-          ];
-        } else {                                                              // or not ?
-          $response = [
-            'message' => 'Gagal menambahkan organization.',
-            'success' => 0,
-          ];
-        }
-        $this->set_response($response, 404);                                  // give back the response
-        return;
-      }                                                                       // if the token is expired
-      $response = [                                                           // set the response
-        'message' => 'Gagal! Terjadi masalah. Token is expired.',
-        'status' =>  0,
+    foreach ($this->post() as $key => $value) {                           // get the post data
+      if (strpos($key, 'user') !== FALSE) {                               // separate between user data
+        $dataPostUser[substr($key, 5)] = $value;
+      } else {                                                            // and organization data
+        $dataPostOrg[substr($key, 4)] = $value;
+      }
+    }
+    $userId = $this->User_model->create($dataPostUser);           // create user and save the id
+    $dataPostOrg['user_id'] = $userId;                                    // add user id to organization data
+    $id = $this->Organization_model->create($dataPostOrg);        // create organization and get the organization id
+    if ($id != false) {                                                   // is it successfull?
+      $response = [
+        'message' => 'Berhasil menambahkan organization.',
+        'success' => 1,
+        'http_status' => 200,
+        'result' => $this->Organization_model->get($id)
       ];
-      $this->set_response($response, 503);                                    // give back the response
-      return;
-    }                                                                         // if there's no authentication in headers.
-    $response = [                                                             // set this response
-      'message' => 'Gagal! Dilarang.',
-      'status' => 0,
-    ];
-    $this->set_response($response, 503);                                      // give back the response
+    } else {                                                              // or not ?
+      $response = [
+        'message' => 'Gagal menambahkan organization.',
+        'success' => 0,
+      ];
+    }
+    $this->set_response($response, 404);                                  // give back the response
+    return;
+      
   }
 }
