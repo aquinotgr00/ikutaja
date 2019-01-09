@@ -73,7 +73,6 @@
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085007/js/plugins.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546084692/js/ajax.mail.js"></script>        
         <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
-        <script src="<?php echo base_url('assets/js/signup.js'); ?>"></script>
         <?php isset($xscript) ? $this->load->view($xscript) : null ?>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/style.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>        

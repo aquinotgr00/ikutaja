@@ -22,13 +22,11 @@ class User extends REST_Controller
           'message' => 'Berhasil menampilkan user(s).',
           'success' => 1,
           'http_status' => 200,
-          'result' => [
-            'users' => ($id != null)
+          'result' => ($id != null)
               ? $this->User_model->get($id)
-              : $this->User_model->all()
-            ]
+              : [ 'user' => $this->User_model->all() ]
         ];
-        ($response['result']['users'] == false)
+        ($response['result']['user'] == false)
           ? $response = [
               'message' => 'Tidak ada user dengan id ini.',
               'success' => 0,

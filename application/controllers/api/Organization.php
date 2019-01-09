@@ -3,13 +3,27 @@
 require_once APPPATH . '/libraries/REST_Controller.php';
 use Restserver\Libraries\REST_Controller;
 
-class Volunteer extends REST_Controller
+class Organization extends REST_Controller
 {
   public function __construct() 
   {
     parent::__construct();
-    $this->load->model('Volunteer_model');
+    $this->load->model('Organization_model');
     $this->load->model('User_model');
+    // $headers = $this->input->request_headers();
+    // if (!Authorization::tokenIsExist($headers)) {
+    //   showRestrict();      
+    // } else {
+    //   $token = Authorization::validateToken($headers['Authorization']);
+    //   if ($token == false) {
+    //     $response = [
+    //       'message' => 'Gagal! Terjadi masalah.',
+    //       'status' =>  0,
+    //     ];
+    //     $this->set_response($response, 503);
+    //     return;
+    //   }
+    // }
   }
 
   public function index_get($id = null)
@@ -20,18 +34,18 @@ class Volunteer extends REST_Controller
       $token = Authorization::validateToken($headers['Authorization']);
       if ($token != false) {
         $response = [
-          'message' => 'Berhasil menampilkan volunteer(s).',
+          'message' => 'Berhasil menampilkan organization(s).',
           'success' => 1,
           'http_status' => 200,
           'result' => [
-            'volunteers' => ($id != null)
-              ? $this->Volunteer_model->get($id)
-              : $this->Volunteer_model->all()
+            'organizations' => ($id != null)
+              ? $this->Organization_model->get($id)
+              : $this->Organization_model->all()
             ]
         ];
-        ($response['result']['volunteers'] == false)
+        ($response['result']['organizations'] == false)
           ? $response = [
-              'message' => 'Tidak ada volunteer.',
+              'message' => 'Tidak ada organization.',
               'success' => 0,
             ]
           : '';
@@ -40,7 +54,7 @@ class Volunteer extends REST_Controller
       }
     }
     $response = [
-      'message' => 'Gagal menampilkan volunteer(s). Dilarang.',
+      'message' => 'Gagal menampilkan organization(s). Dilarang.',
       'success' => 0,
     ];
     $this->set_response($response, 503);
@@ -55,16 +69,16 @@ class Volunteer extends REST_Controller
       if ($token != false) {
         if ($id != false) {
           $response = [
-            'message' => 'volunteer berhasil di hapus.',
+            'message' => 'organization berhasil di hapus.',
             'status' => 1,
           ];
-          $this->Volunteer_model->delete($id);
+          $this->Organization_model->delete($id);
           $this->set_response($response);
           return;
         }
       }
       $response = [
-        'message' => 'Gagal menghapus volunteer. Dilarang.',
+        'message' => 'Gagal menghapus organization. Dilarang.',
         'status' => 0,
       ];
       $this->set_response($response, 503);
@@ -84,31 +98,28 @@ class Volunteer extends REST_Controller
     foreach ($this->post() as $key => $value) {                           // get the post data
       if (strpos($key, 'user') !== FALSE) {                               // separate between user data
         $dataPostUser[substr($key, 5)] = $value;
-      } else if (strpos($key, 'volunteer') !== FALSE) {                   // and volunteer data
-        $dataPostVol[substr($key, 10)] = $value;
-      } else {
-        $dataPostField[$key] = $value;
+      } else {                                                            // and organization data
+        $dataPostOrg[substr($key, 4)] = $value;
       }
     }
     $userId = $this->User_model->create($dataPostUser);           // create user and save the id
-    $dataPostVol['user_id'] = $userId;                                    // add user id to volunteer data
-    $id = $this->Volunteer_model->create($dataPostVol);
-    $dataPostField['volunteer_id'] = $id;
-    $response = $this->Volunteer_model->addVolunteerField($dataPostField);
-    if ($id != false) {
+    $dataPostOrg['user_id'] = $userId;                                    // add user id to organization data
+    $id = $this->Organization_model->create($dataPostOrg);        // create organization and get the organization id
+    if ($id != false) {                                                   // is it successfull?
       $response = [
-        'message' => 'Berhasil menambahkan volunteer.',
+        'message' => 'Berhasil menambahkan organization.',
         'success' => 1,
         'http_status' => 200,
-        'result' => $this->Volunteer_model->get($id)
+        'result' => $this->Organization_model->get($id)
       ];
-    } else {
+    } else {                                                              // or not ?
       $response = [
-        'message' => 'Gagal menambahkan volunteer.',
+        'message' => 'Gagal menambahkan organization.',
         'success' => 0,
       ];
     }
-    $this->set_response($response, 404);
+    $this->set_response($response, 404);                                  // give back the response
     return;
+      
   }
 }

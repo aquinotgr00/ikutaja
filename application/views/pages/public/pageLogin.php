@@ -25,8 +25,8 @@
                                 <a href="#" class="btn rounded border btn-block"><i class="fa fa-google-plus-square"></i> Log in with Google</a>
                                 <hr class="mt-5 mb-0">
                                 <p class="pt-5 form-row-first">
-                                    <label>Username atau Email <span class="required">*</span></label>
-                                    <input type="text" name="username" required>
+                                    <label>Email <span class="required">*</span></label>
+                                    <input type="email" name="email" required>
                                 </p>
                                 <p class="form-row-last">
                                     <label>Kata Sandi <span class="required">*</span></label>

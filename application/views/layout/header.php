@@ -1,7 +1,7 @@
     <body>
         <div class="wrapper">
-            <div class="msg-notif alert alert-success" id="msg-notif" role="alert">
-                <h4 class="alert-heading" id="msg-notif-heading">Success</h4>
+            <div class="msg-notif alert alert-success" <?= isset($_GET['success']) ? 'style="display:block;"': null ?> id="msg-notif" role="alert">
+                <h4 class="alert-heading" id="msg-notif-heading"><?= isset($_GET['success']) ? $_GET['success'] : 'success' ?></h4>
             </div>
             <header>
                 <div class="default-header-area header-sticky">

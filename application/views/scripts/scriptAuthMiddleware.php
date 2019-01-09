@@ -18,7 +18,13 @@
     })
     .then(response => response.json())
     .catch(error => console.error('Error:', error))
-    .then(res => window.location = res == 1 ? '/volunteer/dashboard' : '/organizations/dashboard')
+    // .then(res => console.log(res))
+    .then(res => {
+      if (res === '3') {
+        window.location = '/admin/dashboard'
+      }
+      window.location = res == 1 ? '/volunteer/dashboard' : '/organizations/dashboard'
+    })
   }
 
   const redirect = (url='/auth/login', needLoggedIn= true) => {
