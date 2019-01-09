@@ -1,19 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller {
+class Admin extends CI_Controller {	
 
-	public function login() {
-		$data=array('title' => 'Ikutaja - Login Admin',
-					'page' => 'admin/pageLoginAdmin',);
-		$this->load->view('admin/pageLayout/relative', $data);
-	}
-	public function dashboard() {
-		$data=array('title' => 'Ikutaja - Dashboard Admin',
-					'page' => 'admin/pageDashboardAdmin',
-					'kepala' => 'Dashboard',);
-		$this->load->view('admin/pageLayout/wrapper', $data);
-	}
 	public function settingAdmin() {
 		$data=array('title' => 'Ikutaja - Management Organizer',
 					'page' => 'admin/pageSide/pageSettingAdmin',

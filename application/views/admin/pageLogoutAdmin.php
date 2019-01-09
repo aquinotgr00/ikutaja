@@ -5,7 +5,7 @@
         <meta http-equiv=x-ua-compatible content="ie=edge">
         
         <title>
-            Ikutaja - Login Admin
+            <?= $title ?>
         </title>
 
         <meta name=description content>
@@ -30,33 +30,21 @@
                         <img class="align-content" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102240/img/logo/logo.png" alt="">
                     </a>
                 </div>
-                
+                <?php if(isset($error)) { echo $error; }; ?>
                 <div class="login-form">                
                     <form method="post" action="<?php echo base_url('login/admin'); ?>">
-                    <?php if(isset($error)) { echo $error; }; ?>
-                        <div class="form-group">
-                            <label>Username</label>
-                            <input name="username" type="username" class="form-control" placeholder="Username">
-                            <?php echo form_error('username'); ?>
+                         
+                        <div class="text-center">
+                            <h4>ANDA TELAH LOGOUT</h4>
+                            <p>Silahkan tekan tombol dibawah untuk masuk kembali.</p>
                         </div>
-                        <div class="form-group">
-                            <label>Password</label>
-                            <input name="password" type="password" class="form-control" placeholder="Password">
-                            <?php echo form_error('password'); ?>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Remember Me
-                            </label>                        
-                        </div>
+
                         <input value="Sign in" type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">                    
-                    </form>                    
+                    </form>
                 </div>
-                
             </div>
         </div>
     </div>
-            
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
