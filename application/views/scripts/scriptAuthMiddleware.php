@@ -20,10 +20,11 @@
     .catch(error => console.error('Error:', error))
     // .then(res => console.log(res))
     .then(res => {
-      if (res === '3') {
+      if (res == '3') {
         window.location = '/admin/dashboard'
+      } else {
+        window.location = res == 1 ? '/volunteer/dashboard' : '/organizations/dashboard'
       }
-      window.location = res == 1 ? '/volunteer/dashboard' : '/organizations/dashboard'
     })
   }
 
