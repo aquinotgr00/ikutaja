@@ -33,24 +33,28 @@
                                             <th class="serial">#</th>
                                             <th class="avatar">Avatar</th>
                                             <th>ID</th>
-                                            <th>Name</th>
-                                            <th>Product</th>
-                                            <th>Quantity</th>
+                                            <th>Nama</th>
+                                            <th>Alamat</th>
+                                            <th>Gender</th>
                                             <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        <?php
+                                        $no = 1;
+                                        foreach ($volunteers as $key => $value) :
+                                        ?>
                                         <tr>
-                                            <td class="serial">1.</td>
+                                            <td class="serial"><?= $no; ?></td>
                                             <td class="avatar">
                                                 <div class="round-img">
                                                     <a href="#"><img class="rounded-circle" src="<?php echo base_url('assetsAdmin/img/avatar/1.jpg'); ?>" alt=""></a>
                                                 </div>
                                             </td>
-                                            <td> #5469 </td>
-                                            <td>  <span class="name">Louis Stanley</span> </td>
-                                            <td> <span class="product">iMax</span> </td>
-                                            <td><span class="count">231</span></td>
+                                            <td> #<?= $value->id ?> </td>
+                                            <td>  <span class="name"><?= $value->first_name." ".$value->last_name ?></span> </td>
+                                            <td> <span class="product"><?= $value->address ?></span> </td>
+                                            <td><span class="product"><?= $value->gender == 1 ? 'pria' : 'wanita' ?></span></td>
                                             <td>
                                                 <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
                                                     EDIT
@@ -60,66 +64,7 @@
                                                 </button>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td class="serial">2.</td>
-                                            <td class="avatar">
-                                                <div class="round-img">
-                                                    <a href="#"><img class="rounded-circle" src="<?php echo base_url('assetsAdmin/img/avatar/2.jpg'); ?>" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td> #5468 </td>
-                                            <td>  <span class="name">Gregory Dixon</span> </td>
-                                            <td> <span class="product">iPad</span> </td>
-                                            <td><span class="count">250</span></td>
-                                            <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
-                                                    EDIT
-                                                </button>
-                                                <button type="button" class="btn btn-danger mb-1">
-                                                    DELETE
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="serial">3.</td>
-                                            <td class="avatar">
-                                                <div class="round-img">
-                                                    <a href="#"><img class="rounded-circle" src="<?php echo base_url('assetsAdmin/img/avatar/3.jpg'); ?>" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td> #5467 </td>
-                                            <td>  <span class="name">Catherine Dixon</span> </td>
-                                            <td> <span class="product">SSD</span> </td>
-                                            <td><span class="count">250</span></td>
-                                            <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
-                                                    EDIT
-                                                </button>
-                                                <button type="button" class="btn btn-danger mb-1">
-                                                    DELETE
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="serial">4.</td>
-                                            <td class="avatar">
-                                                <div class="round-img">
-                                                    <a href="#"><img class="rounded-circle" src="<?php echo base_url('assetsAdmin/img/avatar/4.jpg'); ?>" alt=""></a>
-                                                </div>
-                                            </td>
-                                            <td> #5466 </td>
-                                            <td>  <span class="name">Mary Silva</span> </td>
-                                            <td> <span class="product">Magic Mouse</span> </td>
-                                            <td><span class="count">250</span></td>
-                                            <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
-                                                    EDIT
-                                                </button>
-                                                <button type="button" class="btn btn-danger mb-1">
-                                                    DELETE
-                                                </button>
-                                            </td>
-                                        </tr>
+                                        <?php $no++; endforeach; ?>
                                     </tbody>
                                 </table>
                             </div> <!-- /.table-stats -->
