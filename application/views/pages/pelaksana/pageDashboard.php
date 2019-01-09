@@ -7,7 +7,7 @@
                     <h1 class="breadmome-name">Dashboard</h1>
                     <ul>
                         <li><a href="<?php echo base_url('/'); ?>">Home</a></li>
-                        <li class="active">Dashboard</li>
+                        <li class="active">Pelaksana</li>
                     </ul>
                 </div>
             </div>
@@ -19,6 +19,7 @@
 <div class="jumbotron-user-area mt-5">
     <div class="container">
         <div class="jumbotron bg-white shadow-sm p-0">
+            
             <div class="row m-0">
                 <div class="col-lg-4 p-0">
                     <div class="vol-user-card card border-0 rounded-0">
@@ -58,29 +59,17 @@
                     </div>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg bg-white py-3">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav w-75 mx-auto">
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link" href="#">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-                            <div class="table-stats order-table ov-h">
-                                <table class="table ">
+            
+            <!-- tambah event -->                                    
+            <div class="navbar-nav mx-auto">
+                <button type="button" class="col-2 offset-5 btn btn-primary mb-1" data-toggle="modal" data-target="#largeModal">
+                    ADD EVENT
+                </button>                        
+            </div>                
+            <!-- tambah event -->                                
+        
+                            <div class="table-stats order-table">
+                                <table class="table">
                                     <thead>
                                         <tr>
                                             <th class="serial">#</th>
@@ -105,7 +94,7 @@
                                             <td> <span class="product">iMax</span> </td>
                                             <td><span class="count">231</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#mediumModal">
                                                     EDIT
                                                 </button>
                                                 <button type="button" class="btn btn-danger mb-1">
@@ -125,7 +114,7 @@
                                             <td> <span class="product">iPad</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#mediumModal">
                                                     EDIT
                                                 </button>
                                                 <button type="button" class="btn btn-danger mb-1">
@@ -145,7 +134,7 @@
                                             <td> <span class="product">SSD</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#mediumModal">
                                                     EDIT
                                                 </button>
                                                 <button type="button" class="btn btn-danger mb-1">
@@ -165,7 +154,7 @@
                                             <td> <span class="product">Magic Mouse</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#mediumModal">
                                                     EDIT
                                                 </button>
                                                 <button type="button" class="btn btn-danger mb-1">
@@ -175,25 +164,20 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div> <!-- /.table-stats -->
-
-                            <div class="modal fade pt-120" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+                            </div> <!-- /.table-stats -->                          
+                            
+                            <!-- edit event -->
+                            <div class="modal fade pt-120" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-lg" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="largeModalLabel">Large Modal</h5>
+                                            <h5 class="modal-title" id="mediumModalLabel">Edit Event</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3"><label class=" form-control-label">Static</label></div>
-                                                    <div class="col-12 col-md-9">
-                                                        <p class="form-control-static">Username</p>
-                                                    </div>
-                                                </div>
+                                            <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">                                                
                                                 <div class="row form-group">
                                                     <div class="col col-md-3"><label for="text-input" class=" form-control-label">Text Input</label></div>
                                                     <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control"><small class="form-text text-muted">This is a help text</small></div>
@@ -226,6 +210,56 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- edit event -->
+                            
+                            <!-- tambah event -->
+                            <div class="modal fade pt-120" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="largeModalLabel">Tambah Event</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">                                                
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Text Input</label></div>
+                                                    <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control"><small class="form-text text-muted">This is a help text</small></div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3"><label for="email-input" class=" form-control-label">Email Input</label></div>
+                                                    <div class="col-12 col-md-9"><input type="email" id="email-input" name="email-input" placeholder="Enter Email" class="form-control"><small class="help-block form-text">Please enter your email</small></div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3"><label for="password-input" class=" form-control-label">Password</label></div>
+                                                    <div class="col-12 col-md-9"><input type="password" id="password-input" name="password-input" placeholder="Password" class="form-control"><small class="help-block form-text">Please enter a complex password</small></div>
+                                                </div>                                                                                                                                                 
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3"><label for="select" class=" form-control-label">Select</label></div>
+                                                    <div class="col-12 col-md-9">
+                                                        <select name="select" id="select" class="form-control">
+                                                            <option value="0">Please select</option>
+                                                            <option value="1">Option #1</option>
+                                                            <option value="2">Option #2</option>
+                                                            <option value="3">Option #3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>                                                
+                                            </form>    
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tambah event -->
+                
+
+                        
             
         </div>
     </div>
