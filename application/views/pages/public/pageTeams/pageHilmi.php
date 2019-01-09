@@ -38,7 +38,7 @@
                                 <li><span>Email :</span><a href="mailto:hilmii@pm.me?Subject=Hello%20Hilmi">hilmii@pm.me</a></li>
                                 <li><span>Hobby :</span>Berdiri</li>
                                 <li><span>Telepon :</span><a href="#">(+62) 857-2851-8982</a></li>
-                                <li><span>Website :</span><a href="https://www.hilmi.xyz/">hilmi.xyz</a></li>
+                                <li><span>Website :</span><a href="https://hilmii.com">hilmii.com</a></li>
                             </ul>
                             <div class="social">
                                 <a href="https://m.facebook.com/hilmi.afifi.al.atsari" class="facebook"><i class="fa fa-facebook"></i></a>
