@@ -66,8 +66,8 @@
         </footer>
         </div>
 
-        <?php isset($authMiddleware) ? $this->load->view('scripts/scriptAuthMiddleware') : null ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <?php $this->load->view('scripts/scriptAuthMiddleware') ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085007/js/plugins.min.js"></script>

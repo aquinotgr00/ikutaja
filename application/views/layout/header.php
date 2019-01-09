@@ -41,7 +41,8 @@
                             </div>
                             <div class="col-lg-2 col-md-6">
                                 <div class="book-now-btn text-right">
-                                    <a href="<?php echo base_url('auth/login');?>">LOGIN</a>
+                                    <a id="login-btn" href="<?php echo base_url('auth/login');?>">LOGIN</a>
+                                    <a id="logout-btn" style="display: none" href="#">Logout</a>
                                 </div>
                             </div>
                         </div>
