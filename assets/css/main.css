@@ -1739,7 +1739,6 @@ textarea:focus {
     height: 44px;
     border-radius: 50px;
     line-height: 30px;
-    display: inline-block;
     box-shadow: 0 2px 8px rgba(1, 1, 1, .4)
 }
 

@@ -7,6 +7,32 @@
     return false // user not loggedin
   }
 
+  const showLogoutBtn = () => {
+    document.querySelector('#login-btn').style.display = 'none'
+    document.querySelector('#logout-btn').style.display = 'inline-block'
+  }
+
+  const showLoginBtn = () => {
+    document.querySelector('#logout-btn').style.display = 'none'
+    document.querySelector('#login-btn').style.display = 'inline-block'
+  }
+
+  if (checkIfLoggedIn()) {
+    showLogoutBtn()
+  } else {
+    showLoginBtn()
+  }
+
+  document.querySelector('#logout-btn').addEventListener('click', e => {
+    e.preventDefault()
+    logout()
+  })
+
+  const logout = () => {
+    localStorage.removeItem('Authorization');
+    window.location = '/'
+  }
+
   const redirectUser = () => {
     fetch(`${window.location.origin}/api/auth/redirectUser`, {
       method: 'GET',
