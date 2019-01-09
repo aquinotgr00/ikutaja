@@ -8,6 +8,7 @@ class Admin extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('Volunteer_model');
+		$this->load->model('Organization_model');
 		$this->load->model('User_model');
 	}
 
@@ -38,8 +39,11 @@ class Admin extends CI_Controller {
 
 	// Organizer	
 	public function accountOrganizer() {
+		$organizations = $this->Organization_model->all();
 		$data=array('title' => 'Ikutaja - Priviledge Organizer',
 					'page' => 'admin/pageSide/pageAccountOrganizer',
+					'organizations' => $organizations,
+					'xscript' => 'scripts/scriptAccountOrganization',
 					'kepala' => 'Account',);
 		$this->load->view('admin/pageLayout/wrapper', $data);
 	}
