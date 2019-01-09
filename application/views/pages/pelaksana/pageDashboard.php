@@ -14,6 +14,8 @@
         </div>
     </div>
 </div>
+<!--Breadcrumb Area End-->
+
 <div class="jumbotron-user-area mt-5">
     <div class="container">
         <div class="jumbotron bg-white shadow-sm p-0">
@@ -27,8 +29,8 @@
                                 </li>
                                 <li class="text-center mt-80 mb-80">
                                     <img class="vol-user-picture rounded-circle mb-3" src="https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Fwww.squ.edu.om%2FPortals%2F85%2Fuser_icon.png&sp=dd64109a31bfb53a355c8d9fa4658b60" alt="user profile">
-                                    <h3 class="text-white">Volunteer name</h3>
-                                    <h5 class="text-white">volunteer title</h5>
+                                    <h3 class="text-white">Organizer name</h3>
+                                    <h5 class="text-white">Organizer title</h5>
                                 </li>
                             </ul>
                         </div>
@@ -80,4 +82,3 @@
         </div>
     </div>
 </div>
-<!--Breadcrumb Area End-->
