@@ -116,19 +116,19 @@
                                 </div>
                                 <div class="typo-articles">
                                     <p>
-                                      The unique stripes of zebras make them one of the animals most familiar to people. They occur in a variety of habitats, such as grasslands, savannas, <span
-                                      class="bg-flat-color-1 text-light">woodlands</span>, thorny scrublands, <span
-                                      class="clickable-text">mountains</span>
-                                      , and coastal hills. However, various anthropogenic factors have had a severe impact on zebra populations, in particular hunting for skins and habitat destruction. Grévy's zebra and the mountain <mark>highlighted text</mark> zebra are endangered.</p>
-                                      <blockquote class="blockquote mt-3 text-right">
-                                          <p>
-                                          Blockquotes. However, various anthropogenic factors have had a severe impact on zebra populations, in particular hunting for skins. </p>
-                                          <footer class="blockquote-footer">Jefferey Lebowski</footer>
-                                      </blockquote>
-                                      <p>
-                                          lthough zebra species may have overlapping ranges, they do not interbreed. In captivity, plains zebras have been crossed with mountain zebras. The hybrid foals <span
-                                          class="bg-flat-color-1 text-light">selected text</span> lacked a dewlap and resembled their
-                                      </p>
+                                        Website ini dibuat oleh <mark>4 orang developers</mark>, dimana developers tersebut adalah para mahasiswa Amikom University angkatan 17 dengan jurusan Teknik Informatika.
+                                        Mereka mengerjakan web ini secara bersama, begadang, dan sampai lupa bagaimana cara untuk tidur. Website ini masih dalam tahap pengembangan dan belum sempurna secara 100%,
+                                        untuk dari itu kami mohon feedbacknya terhadap website kami ini, supaya dapat menjadi website yang siap dan layak untuk digunakan dan terdedikasi sebagai verified website.
+                                        Dan kedepannya mungkin kami akan memberikan sebuah tutorial yakni tutorial bagaimana caranya untuk tidurrr. ~wkwkwk~
+                                    </p>
+                                    <blockquote class="blockquote mt-3 text-right">
+                                        <p>
+                                          Terimakasih kepada <span class="bg-flat-color-4 text-light">Bapak Firman Asharudin</span>, selaku Dosen Perancangan Web II. Mungkin ini adalah pertemuan terakhir dan akhir dari
+                                          kami untuk mendalami mata kuliah Perancangan Web II. Semoga ilmu yang diberikan Bapak kepada kami semua bermanfaat, dan semoga
+                                          nilai mata kuliah Perancangan Web II ini <span class="bg-flat-color-3 text-light">auto A</span>, aminnn. ~wkwkwk~
+                                        </p>
+                                        <footer class="blockquote-footer">admin@ikutaja.id</footer>
+                                    </blockquote>                                      
                                 </div>                                  
                             </div>
                         </div>
