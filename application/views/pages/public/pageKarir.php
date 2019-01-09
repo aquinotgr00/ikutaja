@@ -16,7 +16,7 @@
 <div class="feature-area fix">
     <div class="container-fluid p-0">
         <div class="row coustom-row">
-            <div class="single-feature col-md-4 pt-50">
+            <div class="single-feature col-md-4 pt-50 pb-50">
                 <div class="single-feature-inner">
                     <h2>"Ubah<span class="text-underline"> Niat Baik</span> Jadi Aksi Baik <span class="text-underline">Hari Ini </span> !"</h2>
                 </div>
