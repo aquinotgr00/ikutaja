@@ -141,3 +141,7 @@ form.registration-form .input-error {
 .leaflet-control-attribution, .leaflet-control {
   display: none;
 }
+
+.table-stats {
+    overflow-x: scroll;
+}

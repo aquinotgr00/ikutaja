@@ -28,7 +28,7 @@
                 <div class="card"> 
 
                     <div class="table-stats order-table ov-h">
-                        <table class="table ">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>ID</th>
