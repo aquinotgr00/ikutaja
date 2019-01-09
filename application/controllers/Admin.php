@@ -2,6 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
+	public function __construct() 
+	{
+		parent::__construct();
+		$this->load->model('Volunteer_model');
+		$this->load->model('User_model');
+	}
 
 	public function login() {
 		$data=array('title' => 'Ikutaja - Login Admin',
@@ -23,8 +29,10 @@ class Admin extends CI_Controller {
 	
 	// Volunteer
 	public function accountVolunteer() {
+		$volunteers = $this->Volunteer_model->all();
 		$data=array('title' => 'Ikutaja - Priviledge Volunteer',
 					'page' => 'admin/pageSide/pageAccountVolunteer',
+					'volunteers' => $volunteers,
 					'kepala' => 'Account',);
 		$this->load->view('admin/pageLayout/wrapper', $data);
 	}

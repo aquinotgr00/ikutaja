@@ -4,7 +4,7 @@ class Volunteer_model extends CI_Model {
   public function all()
   {
     $query = $this->db
-      ->select('first_name, last_name, location_id, description')
+      ->select('id, first_name, last_name, address, gender')
       ->get('volunteers');
     if ($query->num_rows() >= 1) {
       return $query->result();
