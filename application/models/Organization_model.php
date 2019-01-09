@@ -4,7 +4,7 @@ class Organization_model extends CI_Model {
   public function all()
   {
     $query = $this->db
-      ->select('user_id, name, location_id, description, rating, website, type, photo, establishment_date, address, postal_code, office_phone')
+      ->select('id, user_id, name, location_id, description, rating, website, type, photo, establishment_date, address, postal_code, office_phone')
       ->get('organizations');
     if ($query->num_rows() >= 1) {
       return $query->result();
@@ -15,7 +15,7 @@ class Organization_model extends CI_Model {
   public function get($id)
   {
     $organization = $this->db
-      ->select('user_id, name, location_id, description, rating, website, type, photo, establishment_date, address, postal_code, office_phone')
+      ->select('id, user_id, name, location_id, description, rating, website, type, photo, establishment_date, address, postal_code, office_phone')
       ->get_where('organizations', ['id' => $id])
       ->row();
     if ($organization) {
@@ -26,18 +26,9 @@ class Organization_model extends CI_Model {
 
   public function create($post)
   {
-    $data = [
-      'user_id' => $post['user_id'],
-      'name' => $post['name'],
-      'description' => $post['description'],
-      'location_id' => $post['location_id'],
-      'address' => $post['address'],
-      'establishment_date' => $post['establishment_date'],
-      'office_phone' => $post['office_phone'],
-      'postal_code' => $post['postal_code'],
-      'website' => $post['website'],
-      'type' => $post['type'],
-    ];
+    foreach ($post as $key => $value) {
+      $data[$key] = $value;
+    }
     if (isset($post['id']) && $post['id'] != null) {
       $this->db->where(['id' => $post['id']]);
       $this->db->update('organizations', $data);
@@ -49,6 +40,8 @@ class Organization_model extends CI_Model {
 
   public function delete($id)
   {
+    $this->db->delete('organization_fields', ['organization_id' => $id]);
+    $this->db->delete('events', ['organization_id' => $id]);
     if($this->db->delete('organizations', ['id' => $id])) {
       return true;
     }

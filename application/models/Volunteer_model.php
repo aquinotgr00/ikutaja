@@ -55,7 +55,6 @@ class Volunteer_model extends CI_Model {
 
   public function delete($id)
   {
-    // $volFields = $this->db->get_where('volunteer_fields', [ 'volunteer_id' => $id ])->result();
     $this->db->delete('volunteer_fields', ['volunteer_id' => $id]);
     if($this->db->delete('volunteers', ['id' => $id])) {
       return true;
