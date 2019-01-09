@@ -24,7 +24,7 @@ class Organization_model extends CI_Model {
     return false;
   }
 
-  public function create($post, $token)
+  public function create($post)
   {
     $data = [
       'user_id' => $post['user_id'],

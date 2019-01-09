@@ -81,50 +81,34 @@ class Volunteer extends REST_Controller
   {
     $headers = $this->input->request_headers();
 
-    if (Authorization::tokenIsExist($headers)) {
-      $token = Authorization::validateToken($headers['Authorization']);
-      if ($token != false) {
-        foreach ($this->post() as $key => $value) {                           // get the post data
-          if (strpos($key, 'user') !== FALSE) {                               // separate between user data
-            $dataPostUser[substr($key, 5)] = $value;
-          } else if (strpos($key, 'volunteer') !== FALSE) {                   // and volunteer data
-            $dataPostVol[substr($key, 10)] = $value;
-          } else {
-            $dataPostField[$key] = $value;
-          }
-        }
-        $userId = $this->User_model->create($dataPostUser, $token);           // create user and save the id
-        $dataPostVol['user_id'] = $userId;                                    // add user id to volunteer data
-        $id = $this->Volunteer_model->create($dataPostVol, $token);
-        $dataPostField['volunteer_id'] = $id;
-        $response = $this->Volunteer_model->addVolunteerField($dataPostField);
-        if ($id != false) {
-          $response = [
-            'message' => 'Berhasil menambahkan volunteer.',
-            'success' => 1,
-            'http_status' => 200,
-            'result' => $this->Volunteer_model->get($id)
-          ];
-        } else {
-          $response = [
-            'message' => 'Gagal menambahkan volunteer.',
-            'success' => 0,
-          ];
-        }
-        $this->set_response($response, 404);
-        return;
+    foreach ($this->post() as $key => $value) {                           // get the post data
+      if (strpos($key, 'user') !== FALSE) {                               // separate between user data
+        $dataPostUser[substr($key, 5)] = $value;
+      } else if (strpos($key, 'volunteer') !== FALSE) {                   // and volunteer data
+        $dataPostVol[substr($key, 10)] = $value;
+      } else {
+        $dataPostField[$key] = $value;
       }
-      $response = [
-        'message' => 'Gagal! Terjadi masalah. Token is expired',
-        'status' =>  0,
-      ];
-      $this->set_response($response, 503);
-      return;
     }
-    $response = [
-      'message' => 'Gagal! Dilarang.',
-      'status' => 0,
-    ];
-    $this->set_response($response, 503);
+    $userId = $this->User_model->create($dataPostUser);           // create user and save the id
+    $dataPostVol['user_id'] = $userId;                                    // add user id to volunteer data
+    $id = $this->Volunteer_model->create($dataPostVol);
+    $dataPostField['volunteer_id'] = $id;
+    $response = $this->Volunteer_model->addVolunteerField($dataPostField);
+    if ($id != false) {
+      $response = [
+        'message' => 'Berhasil menambahkan volunteer.',
+        'success' => 1,
+        'http_status' => 200,
+        'result' => $this->Volunteer_model->get($id)
+      ];
+    } else {
+      $response = [
+        'message' => 'Gagal menambahkan volunteer.',
+        'success' => 0,
+      ];
+    }
+    $this->set_response($response, 404);
+    return;
   }
 }

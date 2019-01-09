@@ -22,7 +22,13 @@ class User_model extends CI_Model {
       $data = [
         'user' => $user
       ];
-      if($user->type = 2) {
+      if($user->type == 1) {
+        $user_vol = $this->db
+          ->select('*')
+          ->get_where('volunteers', ['user_id' => $user->id])
+          ->row();
+        $data['volunteers'] = $user_vol;
+      } else if($user->type == 2) {
         $user_org = $this->db
           ->select('*')
           ->get_where('organizations', ['user_id' => $user->id])
@@ -34,7 +40,7 @@ class User_model extends CI_Model {
     return false;
   }
 
-  public function create($post, $token)
+  public function create($post)
   {
     $data = [
       'username' => $post['username'],
