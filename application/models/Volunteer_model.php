@@ -15,7 +15,7 @@ class Volunteer_model extends CI_Model {
   public function get($id)
   {
     $user = $this->db
-      ->select('user_id, first_name, last_name, location_id, description')
+      ->select('id, user_id, first_name, last_name, profession, gender, address, description')
       ->get_where('volunteers', ['id' => $id])
       ->row();
     if ($user) {
@@ -40,16 +40,9 @@ class Volunteer_model extends CI_Model {
 
   public function create($post)
   {
-    $data = [
-      'user_id' => $post['user_id'],
-      'first_name' => $post['first_name'],
-      'last_name' => $post['last_name'],
-      'location_id' => $post['location_id'],
-      'birthdate' => $post['birthdate'],
-      'address' => $post['address'],
-      'gender' => $post['gender'],
-      'profession' => $post['profession'],
-    ];
+    foreach ($post as $key => $value) {
+      $data[$key] = $value;
+    }
     if (isset($post['id']) && $post['id'] != null) {
       $this->db->where(['id' => $post['id']]);
       $this->db->update('volunteers', $data);
@@ -58,15 +51,16 @@ class Volunteer_model extends CI_Model {
     if($this->db->insert('volunteers', $data)) {
       return $this->db->insert_id();
     }
-    return $data;
   }
 
   public function delete($id)
   {
+    // $volFields = $this->db->get_where('volunteer_fields', [ 'volunteer_id' => $id ])->result();
+    $this->db->delete('volunteer_fields', ['volunteer_id' => $id]);
     if($this->db->delete('volunteers', ['id' => $id])) {
       return true;
     }
-    return false;
+    return $id;
   }
 
 }

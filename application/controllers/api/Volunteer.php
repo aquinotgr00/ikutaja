@@ -49,7 +49,7 @@ class Volunteer extends REST_Controller
   public function delete_post($id)
   {
     $headers = $this->input->request_headers();
-
+    
     if (Authorization::tokenIsExist($headers)) {
       $token = Authorization::validateToken($headers['Authorization']);
       if ($token != false) {
@@ -57,8 +57,8 @@ class Volunteer extends REST_Controller
           $response = [
             'message' => 'volunteer berhasil di hapus.',
             'status' => 1,
+            'result' => $this->Volunteer_model->delete($id)
           ];
-          $this->Volunteer_model->delete($id);
           $this->set_response($response);
           return;
         }
@@ -75,6 +75,18 @@ class Volunteer extends REST_Controller
       'status' => 0,
     ];
     $this->set_response($response);
+  }
+
+  public function updateVolunteer_post($id)
+  {
+    $data = $this->Volunteer_model->create($this->post());
+    // $response = [
+    //   'id' => $id,
+    //   'post' => $this->post(),
+    //   'result' => $this->Volunteer_model->create($data)
+    // ];
+    $this->set_response($data);
+    return;
   }
 
   public function index_post()

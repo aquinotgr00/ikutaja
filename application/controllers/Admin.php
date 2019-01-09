@@ -24,6 +24,7 @@ class Admin extends CI_Controller {
 		$data=array('title' => 'Ikutaja - Priviledge Volunteer',
 					'page' => 'admin/pageSide/pageAccountVolunteer',
 					'volunteers' => $volunteers,
+					'xscript' => 'scripts/scriptAccountVolunteer',
 					'kepala' => 'Account',);
 		$this->load->view('admin/pageLayout/wrapper', $data);
 	}
