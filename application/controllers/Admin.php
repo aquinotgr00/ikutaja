@@ -13,7 +13,7 @@ class Admin extends CI_Controller {
 	}
 
 	public function settingAdmin() {
-		$data=array('title' => 'Ikutaja - Management Organizer',
+		$data=array('title' => 'Ikutaja - Setting Admin',
 					'page' => 'admin/pageSide/pageSettingAdmin',
 					'kepala' => 'Setting',);
 		$this->load->view('admin/pageLayout/wrapper', $data);
@@ -22,7 +22,7 @@ class Admin extends CI_Controller {
 	// Volunteer
 	public function accountVolunteer() {
 		$volunteers = $this->Volunteer_model->all();
-		$data=array('title' => 'Ikutaja - Priviledge Volunteer',
+		$data=array('title' => 'Ikutaja - Setting Akun Relawan',
 					'page' => 'admin/pageSide/pageAccountVolunteer',
 					'volunteers' => $volunteers,
 					'xscript' => 'scripts/scriptAccountVolunteer',
@@ -30,7 +30,7 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/pageLayout/wrapper', $data);
 	}
 	public function eventVolunteer() {
-		$data=array('title' => 'Ikutaja - Management Volunteer',
+		$data=array('title' => 'Ikutaja - Setting Events Diikuti',
 					'page' => 'admin/pageSide/pageEventVolunteer',
 					'kepala' => 'Events',);
 		$this->load->view('admin/pageLayout/wrapper', $data);
@@ -40,7 +40,7 @@ class Admin extends CI_Controller {
 	// Organizer	
 	public function accountOrganizer() {
 		$organizations = $this->Organization_model->all();
-		$data=array('title' => 'Ikutaja - Priviledge Organizer',
+		$data=array('title' => 'Ikutaja - Setting Akun Organisasi',
 					'page' => 'admin/pageSide/pageAccountOrganizer',
 					'organizations' => $organizations,
 					'xscript' => 'scripts/scriptAccountOrganization',
@@ -48,7 +48,7 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/pageLayout/wrapper', $data);
 	}
 	public function eventOrganizer() {
-		$data=array('title' => 'Ikutaja - Management Organizer',
+		$data=array('title' => 'Ikutaja - Setting Events Dibuat',
 					'page' => 'admin/pageSide/pageEventOrganizer',
 					'kepala' => 'Events',);
 		$this->load->view('admin/pageLayout/wrapper', $data);

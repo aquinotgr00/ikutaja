@@ -31,6 +31,7 @@
                         <table class="table">
                             <thead>
                                 <tr>
+                                    <th class="serial">NO</th>
                                     <th>ID</th>
                                     <th>Nama</th>
                                     <th>Website</th>
@@ -40,8 +41,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php foreach($organizations as $key => $value) : ?>
+                                <?php
+                                $no = 1;
+                                foreach($organizations as $key => $value) :
+                                ?>
                                 <tr>
+                                    <td class="serial"><?= $no; ?></td>
                                     <td> #<?= $value->id ?> </td>
                                     <td><span class="name"><?= $value->name ?></span></td>
                                     <td><span class="product"><?= $value->website ?></span></td>
@@ -56,7 +61,7 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <?php endforeach; ?>
+                                <?php $no++; endforeach; ?>
                             </tbody>
                         </table>
                     </div> <!-- /.table-stats -->
@@ -65,16 +70,29 @@
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="largeModalLabel">Edit Modal</h5>
+                                    <h5 class="modal-title" id="largeModalLabel">Edit Data Biodata</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
                                     <div class="modal-body">
+
                                         <div class="row form-group">
-                                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Text Input</label></div>
-                                            <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="Text" class="form-control"><small class="form-text text-muted">This is a help text</small></div>
+                                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Nama</label></div>
+                                            <div class="col-12 col-md-9"><input type="text" id="text-input" name="name" placeholder="Nama" class="form-control"></div>
+                                        </div>                                        
+                                        <div class="row form-group">
+                                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Website</label></div>
+                                            <div class="col-12 col-md-9"><input type="text" id="text-input" name="website" placeholder="Website" class="form-control"></div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Profesi</label></div>
+                                            <div class="col-12 col-md-9"><input type="text" id="text-input" name="address" placeholder="Address" class="form-control"></div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Nomor Kantor</label></div>
+                                            <div class="col-12 col-md-9"><input type="text" id="text-input" name="office_phone" placeholder="Nomor Kantor" class="form-control"></div>
                                         </div>
                                         <div class="row form-group">
                                             <div class="col col-md-3"><label for="email-input" class=" form-control-label">Email Input</label></div>

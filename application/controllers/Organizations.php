@@ -5,7 +5,7 @@ class Organizations extends CI_Controller {
 
 	public function dashboard() {
 		$data=array('title' => 'Ikutaja - Dashboard Organizations',
-			'page' => 'pages/relawan/pageDashboard',
+			'page' => 'pages/pelaksana/pageDashboard',
 			'xscript' => 'scripts/scriptOrganizationsDashboard');
 		$this->load->view('layout/wrapper', $data);
 	}		

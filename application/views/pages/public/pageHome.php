@@ -195,7 +195,7 @@ Live Chat 24/7</h2>
                     <div class="testimonial-author-info">
                         <div class="team-author-deg">
                             <h3>Achmad Ridwan</h3>
-                            <p>CEO Galang Dana</p>
+                            <p>CMO Galang Dana</p>
                         </div>
                         <div class="author-img">
                             <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/1.jpg" alt="">
@@ -214,7 +214,7 @@ Live Chat 24/7</h2>
                             <p>CEO Indo Volunteer</p>
                         </div>
                         <div class="author-img">
-                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/2.jpg" alt="">
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1547067631/img/testimoni/2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -227,10 +227,10 @@ Live Chat 24/7</h2>
                     <div class="testimonial-author-info">
                         <div class="team-author-deg">
                             <h3>Nita Aisyah</h3>
-                            <p>CEO Simpan Berikan</p>
+                            <p>CFO Simpan Berikan</p>
                         </div>
                         <div class="author-img">
-                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/3.jpg" alt="">
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1547067231/img/testimoni/3.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -244,10 +244,10 @@ Live Chat 24/7</h2>
                     <div class="testimonial-author-info">
                         <div class="team-author-deg">
                             <h3>Nadiem Mustofa</h3>
-                            <p>CEO Donasi Kita</p>
+                            <p>CIO Donasi Kita</p>
                         </div>
                         <div class="author-img">
-                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102714/img/testimoni/4.jpg" alt="">
+                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1547067321/img/testimoni/4.jpg" alt="">
                         </div>
                     </div>
                 </div>
