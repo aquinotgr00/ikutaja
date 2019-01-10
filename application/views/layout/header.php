@@ -35,7 +35,8 @@
                                                     <li><a href="<?php echo base_url('teams');?>">Team</a></li>
                                                 </ul>
                                             </li>
-                                            <li id="loggedin-user-links" class="loggedin-user-links"><a id="loggedin-user-name" href="#">User</a>
+                                                                                   
+                                            <li id="loggedin-user-links" class="active loggedin-user-links"><a id="loggedin-user-name" href="#">User</a>
                                                 <ul id="loggedin-user-ul">
                                                 </ul>
                                             </li>
@@ -46,7 +47,7 @@
                             <div class="col-lg-2 col-md-6">
                                 <div class="book-now-btn text-right">
                                     <a id="login-btn" href="<?php echo base_url('auth/login');?>">LOGIN</a>
-                                    <a id="logout-btn" style="display: none" href="#">Logout</a>
+                                    <a id="logout-btn" style="display: none" href="#">LOGOUT</a>
                                 </div>
                             </div>
                         </div>
