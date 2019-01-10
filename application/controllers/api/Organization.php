@@ -158,10 +158,6 @@ class Organization extends REST_Controller
 
   public function getAllEvents_get()
   {
-    $headers = $this->input->request_headers();
-
-    $token = Authorization::validateToken($headers['Authorization']);
-    $user = $this->User_model->get($token->id);
     $events = $this->Event_model->all();
     $this->set_response($events); return;
   }
