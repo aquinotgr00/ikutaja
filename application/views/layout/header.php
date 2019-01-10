@@ -16,7 +16,7 @@
                                 <div class="header-menu-area">
                                     <nav>
                                         <ul class="main-menu">
-                                            <li class="active">
+                                            <li>
                                                 <a href="<?php echo base_url('/');?>">HOME</a>
                                             </li>
                                             <li><a href="#">PAGES</a>

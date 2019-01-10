@@ -19,20 +19,20 @@
             <div class="col-lg-9">
                 <div class="event-left-sidebar-area">
                     <div class="event-img img-full">
-                        <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101541/img/event/wide.jpg" alt="">
+                        <img draggable="false" src="<?= $event->image ?>" alt="">
                     </div>
                     <div class="event-location">
                         <div class="event-vanue">
                             <h4>vanue:</h4>
-                            <a href="#"><i class="fa fa-flag"></i> Sec-10, Uttara, Dhaka-1230</a>
+                            <a href="#"><i class="fa fa-flag"></i> <?= $event->address ?></a>
                         </div>
                         <div class="event-time">
                             <h4>date:</h4>
-                            <a href="#"><i class="fa fa-calendar"></i> 20 SEP, 2018</a>
+                            <a href="#"><i class="fa fa-calendar"></i> <?= $event->date ?></a>
                         </div>
                     </div>
                     <div class="event-description">
-                        <h3>Medical Camp for Poor Children</h3>
+                        <h3><?= $event->name ?></h3>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
                         <div class="meta-block info">
                             <div class="block-content">
@@ -41,8 +41,8 @@
                                     <div class="content">
                                         <span class="lab">Start time</span>
                                         <span class="val">
-2019-03-08 00:00
-</span>
+                                        2019-03-08 00:00
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="info-item">
@@ -50,8 +50,8 @@
                                     <div class="content">
                                         <span class="lab">Finished Time</span>
                                         <span class="val">
-2019-03-08 02:00
-</span>
+                                        2019-03-08 02:00
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="info-item">
@@ -59,56 +59,14 @@
                                     <div class="content">
                                         <span class="lab">Address</span>
                                         <span class="val">
-Warren Street, New York, USA </span>
+                                        Warren Street, New York, USA </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="event-object">
                             <h4>Event Description</h4>
-                            <p>Following this year’s successful event, The Big London Night Walk will return on Thursday 2nd March 2017. Register your interest for a Friday night with a difference, and change the lives of hardworking Big Issue vendors on their journeys away from homelessness.</p>
-                        </div>
-                        <div class="event-goal">
-                            <h4>Event Content</h4>
-                            <ul>
-                                <li>The auction will be started in the morning of Thursday, April 13, 2017 at Center Hotel.</li>
-                                <li>There are over 100 featured pictures that will be auctioned in this charity event.</li>
-                                <li>Expected the starting price of photograph is 20,000$. </li>
-                                <li>The winner is the bidder offering the highest price.</li>
-                                <li>Other bidders also can contribute our fund by our charity box.</li>
-                                <li>All money earned in this charity event will donate to people that our volunteer photographers went to.</li>
-                            </ul>
-                        </div>
-                        <div class="event-speakers">
-                            <h4>Speakers</h4>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="single-speaker">
-                                        <div class="testimonial-author-info">
-                                            <div class="team-author-deg">
-                                                <h3>Stephen Smith</h3>
-                                                <p>Donetor, CEO of Axion</p>
-                                            </div>
-                                            <div class="author-img">
-                                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102715/img/testimoni/3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="single-speaker">
-                                        <div class="testimonial-author-info">
-                                            <div class="team-author-deg">
-                                                <h3>Alisa Thomson</h3>
-                                                <p>Donetor, GM of Retro</p>
-                                            </div>
-                                            <div class="author-img">
-                                                <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546102715/img/testimoni/3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <p><?= $event->description ?></p>
                         </div>
                     </div>
                     <div class="question-area mt-50">

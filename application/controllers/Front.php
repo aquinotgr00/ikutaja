@@ -2,6 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Front extends CI_Controller {
+
+	public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Event_model');
+    }
 	
 	public function index() {
 		$data=array('title' => 'Ikutaja - Jadilah yang terbaik',
@@ -98,11 +104,13 @@ class Front extends CI_Controller {
 			$this->load->view('layout/wrapper', $data);
 	}	    
 	
-	public function eventDetail() {
+	public function eventDetail($id) {
+		$event = $this->Event_model->getSingle($id);
 		$data=array('title' => 'Ikutaja - Detail Event',
+					'event' => $event,
 					'page' => 'pages/public/pageEventDetail');
 		$this->load->view('layout/wrapper', $data);
-	}	
+	}
     // Event
 
 	public function galeri() {
