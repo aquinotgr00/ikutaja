@@ -37,6 +37,10 @@
     height: 100% !important;
 }
 
+.loggedin-user-links {
+    display: none;
+}
+
 /* mm */
 /* form signup */
 .form-top {

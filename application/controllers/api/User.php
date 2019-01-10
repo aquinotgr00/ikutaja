@@ -114,4 +114,11 @@ class User extends REST_Controller
     ];
     $this->set_response($response, 503);
   }
+
+  public function getOrgById_get($id)
+  {
+    $organization = $this->User_model->getOrgById($id);
+    $this->set_response($organization);
+    return;
+  }
 }

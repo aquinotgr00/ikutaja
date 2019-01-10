@@ -16,9 +16,17 @@ class Auth extends REST_Controller
   {
     $headers = $this->input->request_headers();
     $cek = Authorization::tokenIsExist($headers);
+    $token = Authorization::validateToken($headers['Authorization']);
+    $user = $this->User_model->get($token->id)['user'];
+    $this->set_response($user);
+  }
+
+  public function getUserFromToken_get()
+  {
+    $headers = $this->input->request_headers();
+    $cek = Authorization::tokenIsExist($headers);
     $user = Authorization::validateToken($headers['Authorization']);
-    $type = $this->User_model->get($user->id)['user']->type;
-    $this->set_response($type);
+    $this->set_response($user->id);
   }
 
   public function login_post()

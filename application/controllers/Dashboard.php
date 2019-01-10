@@ -12,20 +12,21 @@ class Dashboard extends CI_Controller {
 
     public function admin()
     {
-        if($this->admin->logged_id())
-        {
+        // if($this->admin->logged_id())
+        // {
 
             $data=array('title' => 'Ikutaja - Dashboard Admin',
 					'page' => 'admin/pageDashboardAdmin',
-					'kepala' => 'Dashboard',);
+                    'kepala' => 'Dashboard',
+                    'xscript' => 'scripts/scriptDashboardAdmin');
 		    $this->load->view('admin/pageLayout/wrapper', $data);        
 
-        }else{
+        // }else{
 
-            //jika session belum terdaftar, maka redirect ke halaman login
-            redirect("login/admin");
+        //     //jika session belum terdaftar, maka redirect ke halaman login
+        //     redirect("login/admin");
 
-        }
+        // }
     }
 
     public function logout()

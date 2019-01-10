@@ -66,6 +66,14 @@ class User_model extends CI_Model {
     return false;
   }
 
+  public function getOrgById($id)
+  {
+    $organization = $this->db
+      ->get_where('organizations', ['user_id' => $id])
+      ->row();
+    return $organization;
+  }
+
   public function login($email, $password)
   {
     // fetch by email first
