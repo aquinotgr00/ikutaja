@@ -110,9 +110,10 @@ class Front extends CI_Controller {
 					'page' => 'pages/public/pageGaleri');
 		$this->load->view('layout/wrapper', $data);
 	}		
-	public function blog() {
-		$data=array('title' => 'Ikutaja - Blog',
-					'page' => 'pages/public/pageBlog');
+	
+	public function manual() {
+		$data=array('title' => 'Ikutaja - Manual',
+					'page' => 'pages/public/pageManual');
 		$this->load->view('layout/wrapper', $data);
 	}
 

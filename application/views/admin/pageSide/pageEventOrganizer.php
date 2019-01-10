@@ -52,10 +52,10 @@
                                             <td> <span class="product">iMax</span> </td>
                                             <td><span class="count">231</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-info mb-1" data-toggle="modal" data-target="#largeModal">
                                                     EDIT
                                                 </button>
-                                                <button type="button" class="btn btn-danger mb-1">
+                                                <button type="button" class="btn btn-warning mb-1">
                                                     DELETE
                                                 </button>
                                             </td>
@@ -72,10 +72,10 @@
                                             <td> <span class="product">iPad</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-info mb-1" data-toggle="modal" data-target="#largeModal">
                                                     EDIT
                                                 </button>
-                                                <button type="button" class="btn btn-danger mb-1">
+                                                <button type="button" class="btn btn-warning mb-1">
                                                     DELETE
                                                 </button>
                                             </td>
@@ -92,10 +92,10 @@
                                             <td> <span class="product">SSD</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-info mb-1" data-toggle="modal" data-target="#largeModal">
                                                     EDIT
                                                 </button>
-                                                <button type="button" class="btn btn-danger mb-1">
+                                                <button type="button" class="btn btn-warning mb-1">
                                                     DELETE
                                                 </button>
                                             </td>
@@ -112,10 +112,10 @@
                                             <td> <span class="product">Magic Mouse</span> </td>
                                             <td><span class="count">250</span></td>
                                             <td>
-                                                <button type="button" class="btn btn-success mb-1" data-toggle="modal" data-target="#largeModal">
+                                                <button type="button" class="btn btn-info mb-1" data-toggle="modal" data-target="#largeModal">
                                                     EDIT
                                                 </button>
-                                                <button type="button" class="btn btn-danger mb-1">
+                                                <button type="button" class="btn btn-warning mb-1">
                                                     DELETE
                                                 </button>
                                             </td>

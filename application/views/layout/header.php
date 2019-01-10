@@ -24,14 +24,14 @@
                                                     <li><a href="<?php echo base_url('jadiPelaksana');?>">Jadi Pelaksana</a></li>
                                                     <li><a href="<?php echo base_url('jadiRelawan');?>">Jadi Relawan</a></li>
                                                     <li><a href="<?php echo base_url('events');?>">Events</a></li>
-                                                    <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>
-                                                    <li><a href="<?php echo base_url('blog');?>">Blog</a></li>
+                                                    <li><a href="<?php echo base_url('galeri');?>">Galeri</a></li>                                                    
                                                 </ul>
                                             </li>
                                             <li><a href="#">ABOUT</a>
                                                 <ul>
                                                     <li><a href="#panduan">Lebih Lanjut</a></li>
                                                     <li><a href="<?php echo base_url('tentang');?>">Tentang</a></li>
+                                                    <li><a href="<?php echo base_url('manual');?>">Manual</a></li>
                                                     <li><a href="<?php echo base_url('teams');?>">Team</a></li>
                                                 </ul>
                                             </li>

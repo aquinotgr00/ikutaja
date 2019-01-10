@@ -75,24 +75,7 @@
         <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
         <?php isset($xscript) ? $this->load->view($xscript) : null ?>
         <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546085001/js/style.min.js"></script>
-        <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>        
-        
-        <!-- <script type="text/javascript">
-            window.__lc = window.__lc || {};
-            window.__lc.license = 10466777;
-            (function() {
-                var b = document.createElement("script");
-                b.type = "text/javascript";
-                b.async = true;
-                b.src = ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.livechatinc.com/tracking.js";
-                var a = document.getElementsByTagName("script")[0];
-                a.parentNode.insertBefore(b, a)
-            })();
-        </script>
-
-        <noscript>
-            <a href="https://www.livechatinc.com/chat-with/10466777/">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
-        </noscript> -->
+        <script src="https://res.cloudinary.com/ikutaja/raw/upload/v1546162403/js/map.js"></script>                        
         
     </body>
 

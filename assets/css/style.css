@@ -149,3 +149,24 @@ form.registration-form .input-error {
 .table-stats {
     overflow-x: scroll;
 }
+
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f5f6f7; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00a7ca; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #feb74c; 
+  }
