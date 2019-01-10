@@ -36,6 +36,18 @@ class Event_model extends CI_Model {
     return false;
   }
 
+  public function getSingle($id)
+  {
+    $event = $this->db
+      ->select('*')
+      ->get_where('events', ['id' => $id])
+      ->row();
+    if ($event) {
+      return $event;
+    } 
+    return false;
+  }
+
   public function create($post)
   {
     foreach ($post as $key => $value) {

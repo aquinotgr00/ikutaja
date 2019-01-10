@@ -21,7 +21,7 @@ fetch(`/api/organization/getAllEvents`, {
         <div class="event-img img-full">
             <img draggable="false" src="${eve.image}" alt="">
         </div>
-        <a href="<?php echo base_url('eventDetail'); ?>">
+        <a href="<?php echo base_url('/front/eventDetail/${eve.id}'); ?>">
             <div class="single-event-title">
                 <div class="event-date">
                     <h4>${datee.toDateString()}</h4>
