@@ -90,8 +90,8 @@ Live Chat 24/7</h2>
                             <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/1.jpg" alt="">
                         </div>
                         <div class="event-content">
-                            <h3>Medical Camp for Poor Children</h3>
-                            <p>Central Hall, California. 25 Oct, 2018 at 10 am</p>
+                            <h3>Konser Alibaba Cloud</h3>
+                            <p>Central Hall, Semarang. 29 Jan, 2019 at 03 am</p>
                         </div>
                     </div>
                     <div class="single-event">
@@ -99,8 +99,8 @@ Live Chat 24/7</h2>
                             <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/2.jpg" alt="">
                         </div>
                         <div class="event-content">
-                            <h3>Pure Drinking Water for helpless people</h3>
-                            <p>Midland Cricket Ground. 25 Oct, 2018 at 10 am</p>
+                            <h3>Workshop Angular JS</h3>
+                            <p>Inixindo, Yogyakarta. 02 Feb, 2019 at 08 pm</p>
                         </div>
                     </div>
                     <div class="single-event">
@@ -108,28 +108,10 @@ Live Chat 24/7</h2>
                             <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/3.jpg" alt="">
                         </div>
                         <div class="event-content">
-                            <h3>Medical Camp for Poor Children</h3>
-                            <p>Central Hall, California. 25 Oct, 2018 at 10 am</p>
+                            <h3>Kompetisi Gamers International</h3>
+                            <p>Gedung Serbaguna, Arjuna. 05 Mar, 2019 at 05 pm</p>
                         </div>
-                    </div>
-                    <div class="single-event">
-                        <div class="event-img img-full">
-                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/4.jpg" alt="">
-                        </div>
-                        <div class="event-content">
-                            <h3>Pure Drinking Water for helpless people</h3>
-                            <p>Midland Cricket Ground. 25 Oct, 2018 at 10 am</p>
-                        </div>
-                    </div>
-                    <div class="single-event">
-                        <div class="event-img img-full">
-                            <img draggable="false" src="https://res.cloudinary.com/ikutaja/image/upload/v1546101532/img/event/5.jpg" alt="">
-                        </div>
-                        <div class="event-content">
-                            <h3>Medical Camp for Poor Children</h3>
-                            <p>Central Hall, California. 25 Oct, 2018 at 10 am</p>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
             <div class="col-lg-6 col-12 pl-60">
