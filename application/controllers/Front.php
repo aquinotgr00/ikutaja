@@ -93,7 +93,8 @@ class Front extends CI_Controller {
 	// Event
 	public function events() {
 			$data=array('title' => 'Ikutaja - Semua Event',
-						'page' => 'pages/public/pageEvents');
+						'page' => 'pages/public/pageEvents',
+						'xscript' => 'scripts/scriptPageEvents');
 			$this->load->view('layout/wrapper', $data);
 	}	    
 	

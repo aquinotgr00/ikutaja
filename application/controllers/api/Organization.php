@@ -10,6 +10,7 @@ class Organization extends REST_Controller
     parent::__construct();
     $this->load->model('Organization_model');
     $this->load->model('User_model');
+    $this->load->model('Event_model');
     // $headers = $this->input->request_headers();
     // if (!Authorization::tokenIsExist($headers)) {
     //   showRestrict();      
@@ -120,6 +121,48 @@ class Organization extends REST_Controller
     }
     $this->set_response($response, 404);                                  // give back the response
     return;
-      
+  }
+
+  public function createEvent_post()
+  {
+    $data = $this->post();
+    $id = $this->Event_model->create($data);        // create organization and get the organization id
+    $this->set_response($id); return;
+    // if ($id != false) {                                                   // is it successfull?
+    //   $response = [
+    //     'message' => 'Berhasil menambahkan event.',
+    //     'success' => 1,
+    //     'http_status' => 200,
+    //     'result' => $this->Event_model->get($id, $data->organization_id)
+    //   ];
+    // } 
+    // else {                                                              // or not ?
+    //   $response = [
+    //     'message' => 'Gagal menambahkan event.',
+    //     'success' => 0,
+    //   ];
+    // }
+    // $this->set_response($response, 404);                                  // give back the response
+    // return;
+  }
+
+  public function getAllEventsById_get()
+  {
+    $headers = $this->input->request_headers();
+
+    $token = Authorization::validateToken($headers['Authorization']);
+    $user = $this->User_model->get($token->id);
+    $events = $this->Event_model->allById($user['organization']->id);
+    $this->set_response($events); return;
+  }
+
+  public function getAllEvents_get()
+  {
+    $headers = $this->input->request_headers();
+
+    $token = Authorization::validateToken($headers['Authorization']);
+    $user = $this->User_model->get($token->id);
+    $events = $this->Event_model->all();
+    $this->set_response($events); return;
   }
 }

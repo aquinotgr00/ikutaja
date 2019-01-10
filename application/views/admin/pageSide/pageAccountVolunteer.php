@@ -31,8 +31,6 @@
                         <table class="table ">
                             <thead>
                                 <tr>
-                                    <th class="serial">NO</th>
-                                    <!-- <th class="avatar">Avatar</th> -->
                                     <th>ID</th>
                                     <th>Nama</th>
                                     <th>Alamat</th>
@@ -46,12 +44,6 @@
                                 foreach ($volunteers as $key => $value) :
                                 ?>
                                 <tr>
-                                    <td class="serial"><?= $no; ?></td>
-                                    <!-- <td class="avatar">
-                                        <div class="round-img">
-                                            <a href="#"><img class="rounded-circle" src="<?php echo base_url('assetsAdmin/img/avatar/1.jpg'); ?>" alt=""></a>
-                                        </div>
-                                    </td> -->
                                     <td> #<?= $value->id ?> </td>
                                     <td>  <span class="name"><?= $value->first_name." ".$value->last_name ?></span> </td>
                                     <td> <span class="product"><?= $value->address ?></span> </td>

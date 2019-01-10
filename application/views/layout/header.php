@@ -35,6 +35,10 @@
                                                     <li><a href="<?php echo base_url('teams');?>">Team</a></li>
                                                 </ul>
                                             </li>
+                                            <li id="loggedin-user-links" class="loggedin-user-links"><a id="loggedin-user-name" href="#">User</a>
+                                                <ul id="loggedin-user-ul">
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
